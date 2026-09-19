@@ -1,0 +1,11 @@
+{
+  "title": "BP Learning",
+  "description": "Enhance data visualization with stylish charts and a friendly cat pharmacist bot that guides users and answers questions for an engaging experience.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
