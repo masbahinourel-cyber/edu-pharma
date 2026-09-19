@@ -1,7 +1,0 @@
-fastapi
-uvicorn
-pydantic
-psycopg2-binary
-langgraph
-langchain-openai
-langchain-core
