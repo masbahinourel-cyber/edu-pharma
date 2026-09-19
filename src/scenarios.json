@@ -1,5 +1,30 @@
 [
   {
+    "id": "9bb38f9a-9767-441e-aef8-6dc252cd3ac0",
+    "category": "Accueil et Langue",
+    "customer_opening": "Je lis le français, mais je comprends mieux certaines explications en darija. Est-ce possible ?",
+    "learners_task": "Demande sa préférence, explique par étapes et vérifie ce qu’elle a compris, sans formuler de conseil clinique.",
+    "coaching_hint": "Demande une préférence sans déduire la maîtrise ou le niveau de lecture.",
+    "guided_choices": [
+      {
+        "option": "Bien sûr. Préférez-vous que nous commencions en français simple ou par une explication orale en darija ?",
+        "reaction": "La question laisse la personne choisir la langue qui lui convient.",
+        "is_optimal": true
+      },
+      {
+        "option": "Tout est déjà écrit en français sur l’affiche.",
+        "reaction": "Attention, cela peut paraître dédaigneux.",
+        "is_optimal": false
+      },
+      {
+        "option": "Je vais choisir la langue pour aller plus vite.",
+        "reaction": "Attention, vous ignorez la demande du patient.",
+        "is_optimal": false
+      }
+    ],
+    "allow_free_text": true
+  },
+  {
     "id": "929f585f-e6d5-4fac-b89d-73df572b5cb5",
     "category": "Interaction alimentaire",
     "customer_opening": "Wesh nqder nchreb had lfanid m3a lkas d l7lib?",
