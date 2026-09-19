@@ -1,4 +1,5 @@
 import { useState, useRef, useEffect, useMemo } from 'react';
+import scenariosData from './scenarios.json';
 import {
   AreaChart, Area, BarChart, Bar, RadarChart, Radar,
   PolarGrid, PolarAngleAxis, XAxis, YAxis,
@@ -207,13 +208,24 @@ function CatBot() {
     setIsLoading(true);
 
     try {
-      const response = await fetch('http://127.0.0.1:8000/api/chat', {
+      const systemMessage = `Tu es Pharmachat, un chat-pharmacien assistant. Parle brièvement, sois amical, et ajoute un 'Miaou' occasionnel. Guide l'étudiant s'il pose des questions.`;
+      
+      const response = await fetch('https://api.deepseek.com/v1/chat/completions', {
         method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ message: u.text })
+        headers: { 
+          'Content-Type': 'application/json',
+          'Authorization': 'Bearer sk-4b7dec9a2d1d4cf99fb92239e29cabc6'
+        },
+        body: JSON.stringify({
+          model: "deepseek-chat",
+          messages: [
+            { role: "system", content: systemMessage },
+            { role: "user", content: u.text }
+          ]
+        })
       });
       const data = await response.json();
-      setMsgs(p => [...p, { from: 'cat', text: data.reply }]);
+      setMsgs(p => [...p, { from: 'cat', text: data.choices[0].message.content }]);
     } catch (error) {
       setMsgs(p => [...p, { from: 'cat', text: "Miaou... Je n'arrive pas à me connecter au serveur." }]);
     } finally {
@@ -659,12 +671,45 @@ function Simulation({ scenarios, dialogueAnswers, setDialogueAnswers, dialogueSt
     if (!inputText.trim()) return;
     setIsEvaluating(true);
     try {
-      const res = await fetch('http://localhost:8001/api/evaluate', {
+      const systemMessage = `
+      Tu es un évaluateur expert de pharmaciens.
+      L'étudiant répond actuellement à ce scénario :
+      - Catégorie : ${current.category || 'Général'}
+      - Client dit : "${current.customer_opening || ''}"
+      - Objectif (Task) : "${current.learners_task || ''}"
+      - Astuce (Coaching Hint) : "${current.coaching_hint || ''}"
+      
+      L'étudiant va te donner sa réponse libre à ce client.
+      Tu dois évaluer la réponse de l'étudiant en fonction de l'objectif et de l'astuce.
+      Tu dois retourner ta réponse STRICTEMENT au format JSON avec la structure suivante:
+      {
+          "feedback": "Texte de feedback constructif et amical, avec un 'Miaou' occasionnel.",
+          "scores": {
+              "empathy": <entier sur 100>,
+              "clarity": <entier sur 100>,
+              "accuracy": <entier sur 100>
+          }
+      }
+      Ne renvoie aucun autre texte que le JSON.
+      `;
+      
+      const res = await fetch('https://api.deepseek.com/v1/chat/completions', {
         method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ scenario_id: current.id, user_text: inputText })
+        headers: { 
+          'Content-Type': 'application/json',
+          'Authorization': 'Bearer sk-4b7dec9a2d1d4cf99fb92239e29cabc6'
+        },
+        body: JSON.stringify({
+          model: "deepseek-chat",
+          response_format: { type: "json_object" },
+          messages: [
+            { role: "system", content: systemMessage },
+            { role: "user", content: inputText }
+          ]
+        })
       });
-      const data = await res.json();
+      const rawData = await res.json();
+      const data = JSON.parse(rawData.choices[0].message.content);
       
       setDialogueAnswers((prev: any[]) => {
         const next = [...prev];
@@ -1113,15 +1158,10 @@ export default function App() {
   const [scenarios, setScenarios] = useState<any[]>([]);
 
   useEffect(() => {
-    fetch('http://localhost:8001/api/scenarios')
-      .then(res => res.json())
-      .then(data => {
-        if (data.scenarios) {
-          const shuffled = [...data.scenarios].sort(() => 0.5 - Math.random());
-          setScenarios(shuffled.slice(0, 5));
-        }
-      })
-      .catch(err => console.error("Error fetching scenarios:", err));
+    if (scenariosData && scenariosData.length > 0) {
+      const shuffled = [...scenariosData].sort(() => 0.5 - Math.random());
+      setScenarios(shuffled.slice(0, 5));
+    }
   }, []);
 
   // Load state from localStorage on mount

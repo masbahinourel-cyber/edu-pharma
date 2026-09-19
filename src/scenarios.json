@@ -1,0 +1,1541 @@
+[
+  {
+    "id": "929f585f-e6d5-4fac-b89d-73df572b5cb5",
+    "category": "Interaction alimentaire",
+    "customer_opening": "Wesh nqder nchreb had lfanid m3a lkas d l7lib?",
+    "learners_task": "Expliquer que le calcium empêche l'absorption de certains médicaments de manière simple.",
+    "coaching_hint": "Utilisez des mots simples sur l'efficacité du médicament au lieu de termes chimiques comme \"chélation\".",
+    "guided_choices": [
+      {
+        "option": "Lla, l7lib kaymne3 had dwa bach ykhdem mzyan. Khedih ghir m3a lma, w kheli l7lib htal mn be3d sa3atayn.",
+        "reaction": "Le client hoche la tête : D'accord, lma houwa lwel, w l7lib nkhlih mn b3d.",
+        "is_optimal": true
+      },
+      {
+        "option": "Le calcium chélate l'antibiotique, ce qui réduit considérablement sa biodisponibilité.",
+        "reaction": "Le client a l'air perplexe : Chélate ? Biodispo-chno ?",
+        "is_optimal": false
+      },
+      {
+        "option": "Iyeh, chreb l7lib m3a d-dwa, ghadi yzid l'absorption dyalou.",
+        "reaction": "Safi, walakin hadchi ghir ghadi ykhrbe9 lia lm3ida wla ydir lia chi 7aja khera? Ma3rftch wach ntiq fik.",
+        "is_optimal": false
+      }
+    ],
+    "allow_free_text": true,
+    "retry_comparison": "Comparaison : Donner la consigne \"avec de l'eau, attendre deux heures\" est immédiatement applicable. Les termes pharmacocinétiques ne le sont pas.",
+    "created_at": "2026-09-19 11:09:41.988857+00:00",
+    "focus_type": "darija"
+  },
+  {
+    "id": "c020cba6-fea2-4aad-9753-29d5f8a121d6",
+    "category": "Médicament périmé",
+    "customer_opening": "L9it had sirop f dar, salat sela7iya dyalo f ch'her li fat. Nqder nchrbou?",
+    "learners_task": "Déconseiller fermement la prise de médicaments périmés en expliquant les risques.",
+    "coaching_hint": "Soyez direct sur la perte d'efficacité ou la toxicité, proposez de récupérer le produit.",
+    "guided_choices": [
+      {
+        "option": "Lla, ma tcherbouch. Mli katsali sela7iya, dwa kiy9der ywelli msemmem wla ma yb9ach ykhdem. Jibo l pharmacie nlu7ouh f blasa amina.",
+        "reaction": "Le client est d'accord : Mzyan mli sewltek, ghadi njibou likom.",
+        "is_optimal": true
+      },
+      {
+        "option": "La date de péremption garantit la stabilité des excipients, son usage est maintenant hors de notre responsabilité.",
+        "reaction": "Le client hausse les épaules : Wakha, ghadi njerbo w safi.",
+        "is_optimal": false
+      },
+      {
+        "option": "Iwa chrbou ghir nss dialo, ila kan ban lik ma3ndouch mzeya zid chri wahed jdid.",
+        "reaction": "Safi, walakin hadchi ghadi ykhellini n7ess belli mabaghinich t3awenni, w ana khayef mn had dwa.",
+        "is_optimal": false
+      }
+    ],
+    "allow_free_text": true,
+    "retry_comparison": "Comparaison : Avertir clairement qu'il peut devenir \"toxique\" (msemmem) ou \"inutile\" dissuade l'usage, et proposer de le jeter résout le problème.",
+    "created_at": "2026-09-19 11:09:41.988857+00:00",
+    "focus_type": "darija"
+  },
+  {
+    "id": "04e00880-4f4b-4052-8e2b-d56b8d84d32a",
+    "category": "Jeûne et traitement",
+    "customer_opening": "Ana sayem f Ramadan. Kifach ndir nchreb had dwa li khasni nakhdou tlata d lmarat f nhar?",
+    "learners_task": "Adapter la prise au jeûne ou orienter vers le médecin pour changer la posologie.",
+    "coaching_hint": "Proposez une solution (ftour, shour) si possible, sinon expliquez pourquoi il faut revoir le médecin.",
+    "guided_choices": [
+      {
+        "option": "Bima annhu khassek takhdou 3 d lmarat, khasna nchoufo m3a tbib dyalek wesh nbdlouh b dwa kytkhad ghir 2 marat (ftour w shour).",
+        "reaction": "Le patient acquiesce : Fikra mzyana, ghadi n3yt l tbib nswlou.",
+        "is_optimal": true
+      },
+      {
+        "option": "La demi-vie courte exige des prises toutes les 8 heures, le jeûne est formellement contre-indiqué.",
+        "reaction": "Le patient se ferme : Ana ghadi nsoum, bzaf 3lia hadchi.",
+        "is_optimal": false
+      },
+      {
+        "option": "Khassek tchreb l7eb kaml f lftour bach t3awd lih 3 d lmarat f nhar, walakin ghir f lw9t li koulchi fih.",
+        "reaction": "Sme7 liya, walakin hadchi ma mfhoumch. Kifach n3awd lih 3 d lmarat f lftour? W l7eb kaml kifach?",
+        "is_optimal": false
+      }
+    ],
+    "allow_free_text": true,
+    "retry_comparison": "Comparaison : Proposer une adaptation des horaires (ftour/shour) avec l'accord du médecin montre du respect pour les croyances du patient.",
+    "created_at": "2026-09-19 11:09:41.988857+00:00",
+    "focus_type": "darija"
+  },
+  {
+    "id": "5441a2a4-7fe0-49df-a805-8924a7812500",
+    "category": "Contraception oubliée",
+    "customer_opening": "Nsit lkinna dyal man3 l7aml lbarh f lil. Yallah tfkrt'ha daba f sba7.",
+    "learners_task": "Fournir la règle de rattrapage d'oubli de pilule de manière rassurante et claire.",
+    "coaching_hint": "Donnez l'action immédiate à faire, sans entrer dans les détails hormonaux.",
+    "guided_choices": [
+      {
+        "option": "Ma tkhafich. Khedi lfanida li nsiti daba nite, w khoudi dyal lyoum f lweqt l3adi dyalha f lil. Hta wkha tchrbihom bjoj f nhar wahed machi mochkil.",
+        "reaction": "La cliente est rassurée : Lhamdoulilah, ghadi nakhoudha daba.",
+        "is_optimal": true
+      },
+      {
+        "option": "En cas d'oubli de plus de 12 heures d'un contraceptif oestroprogestatif, l'efficacité n'est plus garantie, il faut une contraception mécanique.",
+        "reaction": "La cliente panique : Efficacité ma kynach? Chno khassni ndir daba?",
+        "is_optimal": false
+      },
+      {
+        "option": "Khessek t3awdi l'ordonnance 3la tbib, w men ba3d kayn chhal men wahed khass tcharbi 2 comprimés bach t3awdi l'équilibre.",
+        "reaction": "Bghit ghir n3ref kifach nkemmel lpilule dyalya, mashi n3awed l'ordonnance. Hadi ghalta 3liya!",
+        "is_optimal": false
+      }
+    ],
+    "allow_free_text": true,
+    "retry_comparison": "Comparaison : Dire \"Prenez-la maintenant, et la prochaine à l'heure habituelle\" donne une marche à suivre claire.",
+    "created_at": "2026-09-19 11:09:41.988857+00:00",
+    "focus_type": "darija"
+  },
+  {
+    "id": "afcf0549-2071-4ef8-96eb-bfb90252b594",
+    "category": "Mesure des sirops",
+    "customer_opening": "Wesh n3tih had sirop b m3el9a kbira dyal lmakla?",
+    "learners_task": "Insister sur l'utilisation de l'outil de dosage fourni pour éviter les erreurs de dose.",
+    "coaching_hint": "Soulignez que les cuillères de cuisine ne sont pas précises et qu'il faut utiliser le gobelet/seringue.",
+    "guided_choices": [
+      {
+        "option": "Lla, m3aleq d lkuzina makaykunouch m9adin. Khassek tsta3ml had lkas sghir li m3a l9er3a bach t3tih l3bar s7i7.",
+        "reaction": "Le parent regarde la boîte : Ah kayn kass sghir hna, safi nsta3mlou howa.",
+        "is_optimal": true
+      },
+      {
+        "option": "L'usage d'une cuillère à soupe domestique induit un risque de sous-dosage ou de surdosage de l'ordre de 30%.",
+        "reaction": "Le parent est confus : 30% ? Ya3ni n3tih m3l9a w nzid chwia ?",
+        "is_optimal": false
+      },
+      {
+        "option": "La3, lmakla sghira kayna, walakin ila kan sirop kaytrek 3la l3bar, zid chwiya dial d3af bach ykoun l3bar b7al li bghiti.",
+        "reaction": "Wesh, bghitini nzid d3af? Hadi ghatdir ghir lkhsr! L9er3a fiha m3l9a kbira dyal lmakla?",
+        "is_optimal": false
+      }
+    ],
+    "allow_free_text": true,
+    "retry_comparison": "Comparaison : Recadrer gentiment vers l'outil de dosage fourni garantit la sécurité. Citer le pourcentage d'erreur embrouille le patient.",
+    "created_at": "2026-09-19 11:09:41.988857+00:00",
+    "focus_type": "darija"
+  },
+  {
+    "id": "f2cb3dff-7eb3-4def-b223-862f8cacfc93",
+    "category": "Durée des symptômes",
+    "customer_opening": "Hadi yomayn w ana kanchreb had sirop w baqi kank7eb. Ma khdamch lya.",
+    "learners_task": "Fixer des attentes réalistes quant au délai d'action du médicament sans minimiser leur inconfort.",
+    "coaching_hint": "Donnez un délai précis dans lequel ils *devraient* se sentir mieux afin qu'ils sachent quand consulter à nouveau.",
+    "guided_choices": [
+      {
+        "option": "Khasseh tqriban reb3 yyam wla khmsa bach lk7ba tnqes nite. Ila bqiti katkh7eb ssimana jaya, khassek trje3 3nd tbib.",
+        "reaction": "Le client soupire : Wakha, ghadi nzid ntsenna chwia.",
+        "is_optimal": true
+      },
+      {
+        "option": "Les antitussifs mettent du temps à atteindre leur efficacité thérapeutique. Deux jours, ce n'est pas suffisant.",
+        "reaction": "Le client fronce les sourcils : Iwa chhal khasni ntsenna ?",
+        "is_optimal": false
+      },
+      {
+        "option": "Sber ghir 3 ott yyam okhrin, l'effet kayban melli tkoun m3awed 3la l'medicament.",
+        "reaction": "3 ott yyam?! Ana mchit l tbib 3la 7sab 7wayj, w hadchi 3iyani bezzaf. Bghit chi 7aja tkhdem daba.",
+        "is_optimal": false
+      }
+    ],
+    "allow_free_text": true,
+    "retry_comparison": "Comparaison : Fournir un délai concret (4 à 5 jours) et une action de repli donne au patient un repère rassurant.",
+    "created_at": "2026-09-19 11:07:08.682865+00:00",
+    "focus_type": "darija"
+  },
+  {
+    "id": "cc9fdd5e-30c1-49c8-8d14-6d939ccfe82b",
+    "category": "Objection sur le prix",
+    "customer_opening": "Had lpomada b 400 drhem?! Ma nqderch nchriha daba, ghalia bezzaf.",
+    "learners_task": "Reconnaître le prix avec empathie et proposer immédiatement une alternative pratique si possible.",
+    "coaching_hint": "Ne défendez pas le prix ou le fabricant. Concentrez-vous sur la recherche d'une solution adaptée à leur portefeuille.",
+    "guided_choices": [
+      {
+        "option": "3ndek l7eq, taman dyalha tale3 chwia. Nchouf lik wesh kayn générique dyalha wla chi tube sghir b taman 9el.",
+        "reaction": "Le client hoche la tête avec appréciation : 3afak, hadchi ghadi y3awenni bezzaf.",
+        "is_optimal": true
+      },
+      {
+        "option": "C'est le prix fixé par le laboratoire pour leur formule brevetée.",
+        "reaction": "Le client croise les bras : Wakha hakak, ma nqderch nchriha.",
+        "is_optimal": false
+      },
+      {
+        "option": "Taman dyalha mzyan, rak ghir khass tkhdm bach tchriha.",
+        "reaction": "Wa fin mzyan a sahbi? 400 drhem 3la chi 7aja sghira? La, hadi ghalia bezzaf, mashi mzyan.",
+        "is_optimal": false
+      }
+    ],
+    "allow_free_text": true,
+    "retry_comparison": "Comparaison : Proposer de vérifier les alternatives montre que vous êtes de leur côté pour trouver une solution. Défendre la tarification du fabricant coupe la communication.",
+    "created_at": "2026-09-19 11:07:08.682865+00:00",
+    "focus_type": "darija"
+  },
+  {
+    "id": "444328c2-54d5-4289-85ef-fcea136bdf11",
+    "category": "Marque vs Générique",
+    "customer_opening": "3lach 3titini had lkrtouna? Ana dima kanakhoud smia lma3roufa, ma bghitch wahed rkhis w mzewer.",
+    "learners_task": "Expliquer que le générique a le même principe actif et le même effet, en validant leur inquiétude sur la qualité.",
+    "coaching_hint": "Évitez le mot \"générique\" au début. Concentrez-vous sur le fait que l'ingrédient principal est exactement le même.",
+    "guided_choices": [
+      {
+        "option": "Had dwa fih nafs lmad'da li f dwayek l3adi, ghir lkrtouna li mbeldla bach yt9am 3lik rkhes.",
+        "reaction": "Le client a l'air soulagé : Ah, yak? Ya3ni ghadi ykhdem bhal bhal?",
+        "is_optimal": true
+      },
+      {
+        "option": "Hada générique bioéquivalent. Lqanoun kaysme7 lina nbédlouh.",
+        "reaction": "Le client est sur la défensive : Ma tlbtch lik tbedlou, bghit dwaya l3adi.",
+        "is_optimal": false
+      },
+      {
+        "option": "Sir, lkrtouna dyalek khedma b7al lm9ada l'asliya, walakin lm9ada l'asliya 3ndha tarkiz ktar chwiya.",
+        "reaction": "Ah, 3lash? Ya3ni hadi machi b7al lm9ada l'asliya? Bghit nfham mzyan, wach hadi khedma b7alha wla la?",
+        "is_optimal": false
+      }
+    ],
+    "allow_free_text": true,
+    "retry_comparison": "Comparaison : Mettre l'accent sur \"nafs lmad'da\" (même ingrédient) rassure et instaure la confiance, tandis que \"générique bioéquivalent\" semble défensif et technique.",
+    "created_at": "2026-09-19 11:07:08.682865+00:00",
+    "focus_type": "darija"
+  },
+  {
+    "id": "b7c91a07-2b96-4862-987c-1c22b4cee967",
+    "category": "Dose oubliée",
+    "customer_opening": "Nsit ma chrebtch lfanida f sba7 w daba 3 d l3chia. Wesh nchreb joj ghedda?",
+    "learners_task": "Donner des instructions claires et sûres pour le rattrapage sans expliquer la pharmacocinétique du médicament.",
+    "coaching_hint": "Donnez une instruction directe pour le moment présent, puis expliquez le plan pour demain.",
+    "guided_choices": [
+      {
+        "option": "Ma tchrebch joj ghedda. Bima anaha ghir 3 d l3chia, khoud lfanida dyal lyoum daba, w ghedda khoudha f lweqt l3adi f sba7.",
+        "reaction": "Le client hoche la tête : Wakha, nakhoudha daba w nreje3 l3adi ghedda.",
+        "is_optimal": true
+      },
+      {
+        "option": "Pour éviter de doubler la concentration plasmatique, sautez la dose oubliée et reprenez demain.",
+        "reaction": "Le client a l'air perdu : Concentration plasmatique ? Ya3ni ma nakhoudhach lyoum ?",
+        "is_optimal": false
+      },
+      {
+        "option": "Kheli lfanida dyal daba w ghedda f sba7 khoud joj dyal daba 3 d l3chia.",
+        "reaction": "Ah? Ghadi nchreb joj f nfs lweqt? Wach hadchi ma ghadi ykhrebni? Ma fhemtch.",
+        "is_optimal": false
+      }
+    ],
+    "allow_free_text": true,
+    "retry_comparison": "Comparaison : Des instructions directes basées sur le temps évitent les erreurs. Expliquer la concentration plasmatique n'est pas pertinent pour l'action immédiate requise.",
+    "created_at": "2026-09-19 11:07:08.682865+00:00",
+    "focus_type": "darija"
+  },
+  {
+    "id": "f57a0ec8-7575-40c0-916d-9f71100279f4",
+    "category": "Conservation des médicaments",
+    "customer_opening": "Wesh had le9tirate d l3inin ndirhom f tlaja wla nkhelihom ghir 3la berra?",
+    "learners_task": "Donner une règle simple et claire pour la conservation et la durée d'utilisation.",
+    "coaching_hint": "Précisez clairement la température sans supposer qu'ils savent ce que signifie \"température ambiante\" en plein été.",
+    "guided_choices": [
+      {
+        "option": "Khelihom f tlaja htal tbghi thellihom. Mli thellihom, nqder tkhlihom ghir 7dak, walakin luh'hom mora ch'her.",
+        "reaction": "Le client répète : F tlaja f lwel, w mli n7elhom nkhlihom 3la berra ch'her. Safi mzyan.",
+        "is_optimal": true
+      },
+      {
+        "option": "Conservez entre 2 et 8 degrés Celsius avant ouverture, puis à température ambiante ne dépassant pas 25 degrés.",
+        "reaction": "Le client fronce les sourcils : Ya3ni... ndirhom f tlaja wla la ?",
+        "is_optimal": false
+      },
+      {
+        "option": "Sire l'9tirate f tlaja 24 sa3a, mora dakchi khlihom f sebata 3adi.",
+        "reaction": "Ah? Wana kنبغي ndirhom ghir f l3in, hadi ghatkhellini nنسى wla nkسرهم.",
+        "is_optimal": false
+      }
+    ],
+    "allow_free_text": true,
+    "retry_comparison": "Comparaison : Traduire les températures en emplacements physiques concrets (réfrigérateur, à côté de soi) élimine toute ambiguïté.",
+    "created_at": "2026-09-19 11:07:08.682865+00:00",
+    "focus_type": "darija"
+  },
+  {
+    "id": "249374e1-4fdc-4142-9f25-32090d67642b",
+    "category": "Grossesse et sécurité",
+    "customer_opening": "Ana 7amla hadi 3 chhour. Wesh had lfanid dyal l7riq amane nakhdou?",
+    "learners_task": "Rassurer la patiente en mentionnant que le médecin est au courant, en utilisant un langage clair et non alarmiste.",
+    "coaching_hint": "Confirmez que le médecin a pesé les options. Évitez d'utiliser les codes de catégorisation des risques.",
+    "guided_choices": [
+      {
+        "option": "Iyeh, tbib dyalek khtar hada bedabt hit howa l'ahsan w l'aman lik bach y7yed l7riq f fetrat l7mala.",
+        "reaction": "La cliente sourit : Lhamdoulilah, khaft la yder lterbya.",
+        "is_optimal": true
+      },
+      {
+        "option": "Le paracétamol est généralement considéré comme sûr, bien que tout comporte un certain risque au premier trimestre.",
+        "reaction": "La cliente panique : Kayn risque ? Wesh ma nakhdouch hsen ?",
+        "is_optimal": false
+      },
+      {
+        "option": "Iyeh, dak lfanid dyal l7riq mzyan walakin ila 3ndek chi chwiya dyal l'khanzir f'dem, khassek t3awdi t'khtbri tbib.",
+        "reaction": "La patiente se demande pourquoi le médecin ne l'a pas informée de ça, et commence à douter du traitement.",
+        "is_optimal": false
+      }
+    ],
+    "allow_free_text": true,
+    "retry_comparison": "Comparaison : Valider le choix délibéré du médecin instaure un climat de confiance. Mentionner \"un certain risque\" de manière générique provoque une panique inutile.",
+    "created_at": "2026-09-19 11:07:08.682865+00:00",
+    "focus_type": "darija"
+  },
+  {
+    "id": "2fc148c5-ed3d-4e5e-a867-69b82547270c",
+    "category": "Interaction médicamenteuse",
+    "customer_opening": "3ndi mounsaba lyoum f lil. Wesh nqder nchreb chi kisan d lkhamr w ana kanakhoud had l'antibiotique?",
+    "learners_task": "Expliquer simplement le risque spécifique de l'interaction, plutôt que de donner un \"non\" générique.",
+    "coaching_hint": "Reliez l'alcool à une sensation négative spécifique pour qu'ils comprennent *pourquoi* c'est mauvais, sans faire la morale.",
+    "guided_choices": [
+      {
+        "option": "Men l'ahsan tfada lkhamr lyoum. Ila khletih m3a had l'antibiotique bedabt, ghadi yderrek rasek w t7es b rdan (nausée).",
+        "reaction": "Le client soupire : Ah, d'accord. Ma bghitch nmred. Ghadi nchreb ghir lma.",
+        "is_optimal": true
+      },
+      {
+        "option": "L'alcool est contre-indiqué avec ce médicament en raison d'un effet antabuse.",
+        "reaction": "Le client fronce les sourcils : Effet antabuse ? Ya3ni ma ghadi ykhdem mzyan ?",
+        "is_optimal": false
+      },
+      {
+        "option": "Machi mochkil, lkhamr ma kaydirch m3a had l'antibiotique. Ghi chreb m3a lma bach tb9a mreye7.",
+        "reaction": "Safi, walakin wa9ila hadchi khayb? Bghit nkoun mtiqen chwiya.",
+        "is_optimal": false
+      }
+    ],
+    "allow_free_text": true,
+    "retry_comparison": "Comparaison : Expliquer le résultat concret (se sentir malade/nauséeux) dissuade beaucoup plus efficacement que de nommer une réaction chimique.",
+    "created_at": "2026-09-19 11:07:08.682865+00:00",
+    "focus_type": "darija"
+  },
+  {
+    "id": "52b571ee-19e6-43e4-b6a0-c8ca8e67c914",
+    "category": "Barrière linguistique",
+    "customer_opening": "Ma fhemtch hadchi b français. Wach t9der tشرح ليا b darija?",
+    "learners_task": "Demandez leur préférence linguistique et adaptez-vous sans faire de suppositions sur leur niveau d'éducation.",
+    "coaching_hint": "Concentrez-vous sur l'expression \"Prendre avec de la nourriture\". Comment diriez-vous cela simplement en darija sans jargon médical ?",
+    "guided_choices": [
+      {
+        "option": "Khoud had lfanid m3a lmakla.",
+        "reaction": "Le client sourit : Choukran, fhemt daba.",
+        "is_optimal": true
+      },
+      {
+        "option": "Il faut le prendre pendant le repas.",
+        "reaction": "Le client a l'air confus : Wakha, walakin chno gelti ?",
+        "is_optimal": false
+      },
+      {
+        "option": "Prenez le comprimé après le repas, c'est mieux.",
+        "reaction": "Le patient a l'air confus et dit : « Mais je ne comprends pas 'comprimé' et 'après'... Vous pouvez répéter en darija ? »",
+        "is_optimal": false
+      }
+    ],
+    "allow_free_text": true,
+    "retry_comparison": "Comparaison : \"Khoud had lfanid m3a lmakla\" répond directement au besoin dans la langue préférée, tandis que répéter en français ignore la demande explicite.",
+    "created_at": "2026-09-19 11:05:34.823814+00:00",
+    "focus_type": "darija"
+  },
+  {
+    "id": "d2a6fc9c-85bf-4091-9b0a-9d844df760c5",
+    "category": "Dosage pédiatrique",
+    "customer_opening": "Weldi 3ndo 3 snin. Tbib gal 5ml, walakin lbra fiha mg. Ma bghitch n3tih bezzaf.",
+    "learners_task": "Traduisez les unités de la prescription vers l'outil physique qu'ils ont, en les rassurant sur la sécurité.",
+    "coaching_hint": "Regardez la conversion. Ne leur expliquez pas le calcul mathématique ; montrez-leur exactement où tirer le piston.",
+    "guided_choices": [
+      {
+        "option": "3emri lbra htal had lkhet li fih 5ml. Aji nwerrik f hadi.",
+        "reaction": "Le parent soupire de soulagement : Choukran, mli cheft'ha wla dakchi wadeh.",
+        "is_optimal": true
+      },
+      {
+        "option": "La concentration est de 250mg par 5ml, donc il suffit de lui donner une dose complète.",
+        "reaction": "Le parent a l'air stressé : Wesh n9elleb 3la 250 wla 5?",
+        "is_optimal": false
+      },
+      {
+        "option": "Zid chwiya mn dawk mg htal tji 5ml, rah ghir l'unité li mkhtalfa.",
+        "reaction": "La, ma bghitch nzid! Bghit n3ref chno ghadi n3ti lwld daba, machi nzid mn rasi.",
+        "is_optimal": false
+      }
+    ],
+    "allow_free_text": true,
+    "retry_comparison": "Comparaison : Montrer la ligne sur la seringue est concret. Expliquer la concentration ajoute de la charge mentale à un parent anxieux.",
+    "created_at": "2026-09-19 11:05:34.823814+00:00",
+    "focus_type": "darija"
+  },
+  {
+    "id": "43634dd4-0977-41df-a4d9-f3a63ec04259",
+    "category": "Patient âgé",
+    "customer_opening": "Kanchreb bezzaf dyal dwayat. Ina wahed fihom dyal tansio? Dak lbyed?",
+    "learners_task": "Identifiez le médicament avec des indices visuels et un langage simple, en confirmant qu'ils savent quand le prendre.",
+    "coaching_hint": "Ne nommez pas seulement le médicament. Utilisez la forme, la couleur et le moment de la journée.",
+    "guided_choices": [
+      {
+        "option": "Iyeh, dak lfanid lbyed mdower sghir howa dyal tansio. Khedih kola sba7 m3a lftour.",
+        "reaction": "Le patient sourit : Lbyed sghir f sba7. Safi fhemt.",
+        "is_optimal": true
+      },
+      {
+        "option": "L'Amlodipine est pour votre hypertension, oui.",
+        "reaction": "Le patient plisse les yeux : Amlo-chno? Wesh howa lbyed?",
+        "is_optimal": false
+      },
+      {
+        "option": "Dak lbyed lmdower sghir dyal tansio, khedih ghir melli tkoon 3ndek l'hypertension.",
+        "reaction": "Hmm, ghir melli? Mais dima 3ndi l'hypertension... 3lash ghir melli? Makaynach chi waqt mou3ayan?",
+        "is_optimal": false
+      }
+    ],
+    "allow_free_text": true,
+    "retry_comparison": "Comparaison : Utiliser des descriptions visuelles correspond à la façon dont le patient s'organise. Les noms médicaux ne l'aident pas.",
+    "created_at": "2026-09-19 11:05:34.823814+00:00",
+    "focus_type": "darija"
+  },
+  {
+    "id": "169c8381-ca1e-4adc-855c-016700a1d1ef",
+    "category": "Vocabulaire technique",
+    "customer_opening": "Vous utilisez des mots compliqués. Vous pouvez m’expliquer simplement ?",
+    "learners_task": "Remplacez le jargon par des mots familiers, puis vérifiez la compréhension sans juger.",
+    "coaching_hint": "Au lieu de dire \"corticostéroïde topique\", quels mots de tous les jours décrivent ce que fait la crème ?",
+    "guided_choices": [
+      {
+        "option": "C'est une pommade pour calmer les rougeurs et les démangeaisons. Vous voyez comment l'appliquer ?",
+        "reaction": "Le client hoche la tête : Ah d'accord, juste pour calmer la peau. Oui je vois.",
+        "is_optimal": true
+      },
+      {
+        "option": "C'est un anti-inflammatoire stéroïdien pour votre dermatite.",
+        "reaction": "Le client fronce les sourcils : Stéroïdien ? C'est dangereux ?",
+        "is_optimal": false
+      },
+      {
+        "option": "C'est une crème topique qui atténue le prurit et l'érythème. Vous pouvez l'utiliser sans souci.",
+        "reaction": "Justement, vous employez encore des termes comme 'prurit' et 'érythème'... C'est toujours aussi flou pour moi. Et puis 'sans souci', ça veut dire quoi ? Que je peux en mettre partout ?",
+        "is_optimal": false
+      }
+    ],
+    "allow_free_text": true,
+    "retry_comparison": "Comparaison : \"Pommade pour calmer les rougeurs\" explique le bénéfice. \"Anti-inflammatoire stéroïdien\" crée de l'anxiété et de la confusion.",
+    "created_at": "2026-09-19 11:05:34.823814+00:00",
+    "focus_type": "darija"
+  },
+  {
+    "id": "4abedf32-2e93-4cde-9cc3-b73112e600ed",
+    "category": "Voie d'administration",
+    "customer_opening": "Kifach nsta3mel had l9wilbat l weldi?",
+    "learners_task": "Préciser la voie d'administration sans gêner le patient, avec des mots simples.",
+    "coaching_hint": "Soyez direct et clair pour éviter toute erreur tragique d'administration par voie orale.",
+    "guided_choices": [
+      {
+        "option": "Had l9wilbat kydarou l drari sghar mn lta7t, machi ytcherbou. Dirlih w7da f sba7 w w7da f lil.",
+        "reaction": "Le parent confirme : Mn lta7t, sbah w lil. Wakha choukran.",
+        "is_optimal": true
+      },
+      {
+        "option": "Ce sont des suppositoires pour administration intra-rectale exclusive.",
+        "reaction": "Le parent hésite : Intra-rectale ? Kifach ?",
+        "is_optimal": false
+      },
+      {
+        "option": "Khassek tched l9wilba f yedek w tsenna 3la l'effet dyalha b tconstructeur.",
+        "reaction": "Ah? W ach men constructeur? Ana bghit n3ref kifach n3tiha l weldi machi n3mel b7al chi ingénieur!",
+        "is_optimal": false
+      }
+    ],
+    "allow_free_text": true,
+    "retry_comparison": "Comparaison : Le terme \"mn lta7t\" en darija est couramment compris pour \"voie rectale\" et évite la confusion, tandis que le jargon médical peut intimider.",
+    "created_at": "2026-09-19 11:10:09.063374+00:00",
+    "focus_type": "darija"
+  },
+  {
+    "id": "59c191ba-39ab-44e6-943b-4efbbb5824e3",
+    "category": "Condition sensible",
+    "customer_opening": "Bghit... chi haja 3la hssab... l7ka... lta7t.",
+    "learners_task": "Maintenir un ton neutre et serviable, en posant les questions diagnostiques nécessaires de manière discrète et respectueuse.",
+    "coaching_hint": "Baissez la voix et normalisez le problème. Posez des questions sur les symptômes directement mais doucement.",
+    "guided_choices": [
+      {
+        "option": "Nqder n3awnek. Wesh had l7ka ghir 3la berra, wla 3ndek chi a3rad khra?",
+        "reaction": "Le client se détend un peu : Ghir 3la berra, yallah bdat lbarh.",
+        "is_optimal": true
+      },
+      {
+        "option": "Vous avez une infection vaginale ? Il faut tout me dire pour que je vous donne le bon antifongique.",
+        "reaction": "Le client est très gêné et regarde autour de lui : Euh, machi mouchkil, nreje3 men be3d.",
+        "is_optimal": false
+      },
+      {
+        "option": "Ach kadir hna? Ghir goulia wesh bkiti, ana ma3ndi wqt.",
+        "reaction": "Wa fin ghadi? Ana bghit ghir chi haja... ma3ndekch l7al, safi khliha.",
+        "is_optimal": false
+      }
+    ],
+    "allow_free_text": true,
+    "retry_comparison": "Comparaison : Dire \"Nqder n3awnek\" normalise la demande. Annoncer bruyamment un diagnostic médical viole la vie privée et provoque un sentiment de honte.",
+    "created_at": "2026-09-19 11:07:08.682865+00:00",
+    "focus_type": "darija"
+  },
+  {
+    "id": "2becce18-6772-4b0b-84ff-23e631755740",
+    "category": "Utilisation d'appareil",
+    "customer_opening": "Tbib galia nsta3mel had rabouz, walakin ma 3reftch wesh kanjbed nfs mzyan.",
+    "learners_task": "Fournir des instructions étape par étape en se concentrant sur une action à la fois, sans termes respiratoires complexes.",
+    "coaching_hint": "Décomposez la séquence : expirer, appuyer, inspirer lentement. N'utilisez pas de termes médicaux compliqués.",
+    "guided_choices": [
+      {
+        "option": "Kherrej nfs dyalek kaml lwel. B3dha, wrek 3la rabouz w jbed nfs bchwia w b3emq f nafs lwaqt.",
+        "reaction": "Le client mime l'action : Nkherrej nfs lwel, nwrek, w njbed bchwia. Safi fhemt.",
+        "is_optimal": true
+      },
+      {
+        "option": "Actionnez le dispositif pendant l'inspiration pour assurer un dépôt pulmonaire maximal.",
+        "reaction": "Le client a l'air confus : Kifach actionnez? Imta nwrek?",
+        "is_optimal": false
+      },
+      {
+        "option": "Jbed nfs dyalek b3emq 9bel ma t7ett rabouz f fommek, w b3d 7ell fommek 3la 5ater.",
+        "reaction": "Smeh liya, hadchi gher 3eguen, bghit gher n3ref kifach ns7ab nafas b rabouz.",
+        "is_optimal": false
+      }
+    ],
+    "allow_free_text": true,
+    "retry_comparison": "Comparaison : Des verbes simples et directs comme \"kherrej nfs\" (expirer) et \"wrek\" (appuyer) sont facilement applicables. Le jargon respiratoire nécessite une traduction mentale.",
+    "created_at": "2026-09-19 11:07:08.682865+00:00",
+    "focus_type": "darija"
+  },
+  {
+    "id": "fcd78235-3bbe-49ab-82ce-69f791b7f2a7",
+    "category": "Anxiété liée aux effets secondaires",
+    "customer_opening": "Qrit f internet bli had l'antibiotique kaydir nzif f lm3da. Ma ghadich nakhdou.",
+    "learners_task": "Validez d'abord leur inquiétude, puis expliquez le risque réel de manière proportionnée sans termes médicaux dédaigneux.",
+    "coaching_hint": "Évitez de dire \"c'est très rare\". Expliquez plutôt comment prévenir la version courante et bénigne de l'effet secondaire.",
+    "guided_choices": [
+      {
+        "option": "Mzyan mli sewelti. Bach t7mi m3edtek, khoudo mobacharatan mora makla mzyana.",
+        "reaction": "Le client se détend : Ah, nakhdou ghir m3a lmakla? Hania.",
+        "is_optimal": true
+      },
+      {
+        "option": "Le risque de saignement gastro-intestinal est inférieur à 1%. Vous n'avez rien à craindre.",
+        "reaction": "Le client croise les bras : 1% rah khatar. Bla bih.",
+        "is_optimal": false
+      },
+      {
+        "option": "Safi, t9dar tdkhel antibiotique f kass dyal lben bach tna9es mn l'irritation dyal l'ma3da.",
+        "reaction": "Lben? Ana ma3reftch hadchi, wach hadi twsiya dyal tbib? Kaybano ghir katkhre3 chi haja bach tsktini.",
+        "is_optimal": false
+      }
+    ],
+    "allow_free_text": true,
+    "retry_comparison": "Comparaison : Valider l'inquiétude et donner une action (manger un repas) donne le contrôle au patient. Citer des statistiques semble dédaigneux.",
+    "created_at": "2026-09-19 11:05:34.823814+00:00",
+    "focus_type": "darija"
+  },
+  {
+    "id": "141c7558-c295-457e-971c-56ff47a080ec",
+    "category": "Arrêt progressif",
+    "customer_opening": "Rje3t kan7es b rasi mzyan lhamdoulilah, ghadi n7bes had dwa dyal l'ikti2ab ghedda.",
+    "learners_task": "Expliquer le danger d'un arrêt brutal à l'aide d'une analogie simple, et insister sur la consultation du médecin.",
+    "coaching_hint": "Utilisez l'idée de \"diminution progressive\" plutôt que des termes cliniques effrayants.",
+    "guided_choices": [
+      {
+        "option": "Mzyan mli wlliti bikhir, walakin ila 7bestih d9a w7da tqder t7es b rasek mrédti tani. Khassek tnqes la dose chwia b chwia. 3afak chawer m3a tbib dyalek lwel.",
+        "reaction": "Le client fait une pause : Ah, ma kntch 3aref. Ghadi n3eyet l tbib.",
+        "is_optimal": true
+      },
+      {
+        "option": "Un arrêt brutal peut entraîner un syndrome de sevrage sévère aux antidépresseurs. Il faut sevrer progressivement.",
+        "reaction": "Le client se met sur la défensive : Sevrage ? Wesh wllit moudmin ?",
+        "is_optimal": false
+      },
+      {
+        "option": "Ila konti 7as b rasek mzyan, momkin t3awd tmchi l tbib men ba3d, walakin dba 9der t7bess 3la rasek.",
+        "reaction": "La, machi ghi 3la rasi, bghit n3ref wach had l7bess ghedda mzyan wla la. 3lash ma nsewlnach tbib daba?",
+        "is_optimal": false
+      }
+    ],
+    "allow_free_text": true,
+    "retry_comparison": "Comparaison : Dire qu'ils pourraient \"se sentir malades\" et qu'il faut \"diminuer la dose\" est très clair. Le mot \"sevrage\" est souvent associé à tort à la toxicomanie.",
+    "created_at": "2026-09-19 11:07:08.682865+00:00",
+    "focus_type": "darija"
+  },
+  {
+    "id": "3efc7d38-6cb1-47d4-8f6b-26bd3793c62b",
+    "category": "Dose oubliée",
+    "customer_opening": "Nsit ma chrebtch lfanida f sba7 w daba 3 d l3chia. Wesh nchreb joj ghedda?",
+    "learners_task": "Donner des instructions claires et sûres pour le rattrapage sans expliquer la pharmacocinétique du médicament.",
+    "coaching_hint": "Donnez une instruction directe pour le moment présent, puis expliquez le plan pour demain.",
+    "guided_choices": [
+      {
+        "option": "Ma tchrebch joj ghedda. Bima anaha ghir 3 d l3chia, khoud lfanida dyal lyoum daba, w ghedda khoudha f lweqt l3adi f sba7.",
+        "reaction": "Le client hoche la tête : Wakha, nakhoudha daba w nreje3 l3adi ghedda.",
+        "is_optimal": true
+      },
+      {
+        "option": "Pour éviter de doubler la concentration plasmatique, sautez la dose oubliée et reprenez demain.",
+        "reaction": "Le client a l'air perdu : Concentration plasmatique ? Ya3ni ma nakhoudhach lyoum ?",
+        "is_optimal": false
+      },
+      {
+        "option": "Ila nsiti lfanida, khoud jouj d l9hya: wa7da daba w wa7da f sba7.",
+        "reaction": "Ah? Jouj d l9hya? Wesh hadi ghatkhdem mzyan? Ana ma fhemtsh.",
+        "is_optimal": false
+      }
+    ],
+    "allow_free_text": true,
+    "retry_comparison": "Comparaison : Des instructions directes basées sur le temps évitent les erreurs. Expliquer la concentration plasmatique n'est pas pertinent pour l'action immédiate requise.",
+    "created_at": "2026-09-19 11:09:41.988857+00:00",
+    "focus_type": "darija"
+  },
+  {
+    "id": "47935fb3-8131-4e99-85ec-73e7561c63c6",
+    "category": "Condition sensible",
+    "customer_opening": "Bghit... chi haja 3la hssab... l7ka... lta7t.",
+    "learners_task": "Maintenir un ton neutre et serviable, en posant les questions diagnostiques nécessaires de manière discrète et respectueuse.",
+    "coaching_hint": "Baissez la voix et normalisez le problème. Posez des questions sur les symptômes directement mais doucement.",
+    "guided_choices": [
+      {
+        "option": "Nqder n3awnek. Wesh had l7ka ghir 3la berra, wla 3ndek chi a3rad khra?",
+        "reaction": "Le client se détend un peu : Ghir 3la berra, yallah bdat lbarh.",
+        "is_optimal": true
+      },
+      {
+        "option": "Vous avez une infection vaginale ? Il faut tout me dire pour que je vous donne le bon antifongique.",
+        "reaction": "Le client est très gêné et regarde autour de lui : Euh, machi mouchkil, nreje3 men be3d.",
+        "is_optimal": false
+      },
+      {
+        "option": "Chno had l7ka? Khellini nchouf, bghit n3ref wesh 3ndek.",
+        "reaction": "La patiente se couvre et dit d'une voix gênée : 'La la, ma tchoufch! Goul liya ghir chno nakhod.'",
+        "is_optimal": false
+      }
+    ],
+    "allow_free_text": true,
+    "retry_comparison": "Comparaison : Dire \"Nqder n3awnek\" normalise la demande. Annoncer bruyamment un diagnostic médical viole la vie privée et provoque un sentiment de honte.",
+    "created_at": "2026-09-19 11:09:41.988857+00:00",
+    "focus_type": "darija"
+  },
+  {
+    "id": "3008a11d-c812-4ba0-9698-ceaacc418e66",
+    "category": "Durée du traitement",
+    "customer_opening": "Wllit bikhir lyoum, rje3t mzyan, ma bghitch nkml had l'antibiotique kaml.",
+    "learners_task": "Expliquer l'importance de finir la boîte pour éviter l'antibiorésistance sans utiliser ce terme technique.",
+    "coaching_hint": "Parlez d'éliminer complètement les bactéries pour qu'elles ne reviennent pas plus fortes.",
+    "guided_choices": [
+      {
+        "option": "Wakha kathseb rasek mzyan, khassek tkemmel lkrtouna kamla bach lmikrobat ymoutou bmerra w ma yrj3ouch mjehdin kter.",
+        "reaction": "Le client comprend : Ah, nkemmelha bach mayrj3ch lya lmerd. Wakha.",
+        "is_optimal": true
+      },
+      {
+        "option": "L'arrêt prématuré de l'antibiothérapie favorise la sélection de souches bactériennes résistantes.",
+        "reaction": "Le client fronce les sourcils : Souches résistantes ? Ana rah bikhir daba.",
+        "is_optimal": false
+      },
+      {
+        "option": "Koun ghir tsber 3la rassek w tkemmel lkrtouna bach tb9a mzyan, walakin ila bghit t7bes daba, matkhafch, l'corps dyalek ghadi y3awd ykber w ywelli 9wi.",
+        "reaction": "Safi, walakin hadchi kaygoul bli ila 7best daba mabghach ykoun mochkil? Ana ma fhemtch, kifach lmikrob ghadi ymout ila ma kemmeltch?",
+        "is_optimal": false
+      }
+    ],
+    "allow_free_text": true,
+    "retry_comparison": "Comparaison : L'image des microbes qui \"reviennent plus forts\" (yrj3ouch mjehdin) est une excellente vulgarisation du concept de résistance bactérienne.",
+    "created_at": "2026-09-19 11:09:41.988857+00:00",
+    "focus_type": "darija"
+  },
+  {
+    "id": "1ce7558e-414e-440e-b149-f48e45b5119a",
+    "category": "Voie d'administration",
+    "customer_opening": "Kifach nsta3mel had l9wilbat l weldi?",
+    "learners_task": "Préciser la voie d'administration sans gêner le patient, avec des mots simples.",
+    "coaching_hint": "Soyez direct et clair pour éviter toute erreur tragique d'administration par voie orale.",
+    "guided_choices": [
+      {
+        "option": "Had l9wilbat kydarou l drari sghar mn lta7t, machi ytcherbou. Dirlih w7da f sba7 w w7da f lil.",
+        "reaction": "Le parent confirme : Mn lta7t, sbah w lil. Wakha choukran.",
+        "is_optimal": true
+      },
+      {
+        "option": "Ce sont des suppositoires pour administration intra-rectale exclusive.",
+        "reaction": "Le parent hésite : Intra-rectale ? Kifach ?",
+        "is_optimal": false
+      },
+      {
+        "option": "Ghadi t3tihom f kass d lma w ychrebhom bhal l'antibiotique.",
+        "reaction": "Smeh liya, walakin ana ma fhemtch. Kifach ychrebhom? Hado machi kif l'antibiotique. Wach hadchi ghadi ykoun mzyan l weldi?",
+        "is_optimal": false
+      }
+    ],
+    "allow_free_text": true,
+    "retry_comparison": "Comparaison : Le terme \"mn lta7t\" en darija est couramment compris pour \"voie rectale\" et évite la confusion, tandis que le jargon médical peut intimider.",
+    "created_at": "2026-09-19 11:09:41.988857+00:00",
+    "focus_type": "darija"
+  },
+  {
+    "id": "001558d3-fe25-486e-bb38-3132d0298f89",
+    "category": "Durée des symptômes",
+    "customer_opening": "Hadi yomayn w ana kanchreb had sirop w baqi kank7eb. Ma khdamch lya.",
+    "learners_task": "Fixer des attentes réalistes quant au délai d'action du médicament sans minimiser leur inconfort.",
+    "coaching_hint": "Donnez un délai précis dans lequel ils *devraient* se sentir mieux afin qu'ils sachent quand consulter à nouveau.",
+    "guided_choices": [
+      {
+        "option": "Khasseh tqriban reb3 yyam wla khmsa bach lk7ba tnqes nite. Ila bqiti katkh7eb ssimana jaya, khassek trje3 3nd tbib.",
+        "reaction": "Le client soupire : Wakha, ghadi nzid ntsenna chwia.",
+        "is_optimal": true
+      },
+      {
+        "option": "Les antitussifs mettent du temps à atteindre leur efficacité thérapeutique. Deux jours, ce n'est pas suffisant.",
+        "reaction": "Le client fronce les sourcils : Iwa chhal khasni ntsenna ?",
+        "is_optimal": false
+      },
+      {
+        "option": "Had sirop ma ghadi ykfi, khassek tzid chi 7aja okhra bhal l3ssel w l7lib dafa.",
+        "reaction": "Sma3t had lklam, bdit nchkk f tbib. Chno had l3ssel w l7lib? Ana bghit chi 7aja tkhdm daba, machi tzid t3qid l7ala.",
+        "is_optimal": false
+      }
+    ],
+    "allow_free_text": true,
+    "retry_comparison": "Comparaison : Fournir un délai concret (4 à 5 jours) et une action de repli donne au patient un repère rassurant.",
+    "created_at": "2026-09-19 11:09:41.988857+00:00",
+    "focus_type": "darija"
+  },
+  {
+    "id": "92446739-9e70-4ff1-bc0b-6ec65616862f",
+    "category": "Arrêt progressif",
+    "customer_opening": "Rje3t kan7es b rasi mzyan lhamdoulilah, ghadi n7bes had dwa dyal l'ikti2ab ghedda.",
+    "learners_task": "Expliquer le danger d'un arrêt brutal à l'aide d'une analogie simple, et insister sur la consultation du médecin.",
+    "coaching_hint": "Utilisez l'idée de \"diminution progressive\" plutôt que des termes cliniques effrayants.",
+    "guided_choices": [
+      {
+        "option": "Mzyan mli wlliti bikhir, walakin ila 7bestih d9a w7da tqder t7es b rasek mrédti tani. Khassek tnqes la dose chwia b chwia. 3afak chawer m3a tbib dyalek lwel.",
+        "reaction": "Le client fait une pause : Ah, ma kntch 3aref. Ghadi n3eyet l tbib.",
+        "is_optimal": true
+      },
+      {
+        "option": "Un arrêt brutal peut entraîner un syndrome de sevrage sévère aux antidépresseurs. Il faut sevrer progressivement.",
+        "reaction": "Le client se met sur la défensive : Sevrage ? Wesh wllit moudmin ?",
+        "is_optimal": false
+      },
+      {
+        "option": "Ila tqder t7bes had dwa dyal l'ikti2ab ghedda, huwa ghir tension wla depression khfifa. Ma3ndek ta chi 7aja takhdod.",
+        "reaction": "Waaaa? Ana kont kan7es b rasi mzyan daba, walakin hadchi khedma dyal tbib, machi ghir tension. Kifach n7bes bla ma nchawer m3a chi wa7ed?",
+        "is_optimal": false
+      }
+    ],
+    "allow_free_text": true,
+    "retry_comparison": "Comparaison : Dire qu'ils pourraient \"se sentir malades\" et qu'il faut \"diminuer la dose\" est très clair. Le mot \"sevrage\" est souvent associé à tort à la toxicomanie.",
+    "created_at": "2026-09-19 11:09:41.988857+00:00",
+    "focus_type": "darija"
+  },
+  {
+    "id": "52553031-379d-46cf-b9f0-5a47dd17750c",
+    "category": "Effet secondaire - Somnolence",
+    "customer_opening": "Mli chrebt had dwa dyal l7asasiya, bqit ghir kantsayeb w fya n3as f lkhedma.",
+    "learners_task": "Avertir sur la sédation et proposer une adaptation de l'heure de prise.",
+    "coaching_hint": "Donnez une consigne de sécurité (conduite) et un conseil pratique pour la prochaine prise.",
+    "guided_choices": [
+      {
+        "option": "Iyeh, had dwa kayjib n3as chwia. Mn l'ahsan t3awd takhdou f lil 9bel ma tn3es bach ma yberztekch f nhar.",
+        "reaction": "Le client sourit : Fikra mzyana, nakhdou b lil hsen.",
+        "is_optimal": true
+      },
+      {
+        "option": "C'est un antihistaminique de première génération qui traverse la barrière hémato-encéphalique, d'où la sédation.",
+        "reaction": "Le client est perdu : Barrière chno ? Wesh n7ebsou ?",
+        "is_optimal": false
+      },
+      {
+        "option": "Zid chwiya dyal l7ennа f dawk, kayhedi l3assab w kayqawwi l'dwa.",
+        "reaction": "L7enna? Be3da 3lia! Bghit ghir nfehm kifach nta9as men n3as, mashi nzid 3lih.",
+        "is_optimal": false
+      }
+    ],
+    "allow_free_text": true,
+    "retry_comparison": "Comparaison : Transférer la prise le soir résout le problème pratique. Expliquer la barrière hémato-encéphalique ne sert à rien ici.",
+    "created_at": "2026-09-19 11:09:41.988857+00:00",
+    "focus_type": "darija"
+  },
+  {
+    "id": "ad01869b-8cb0-4c13-86cf-376349122800",
+    "category": "Risque de surdosage",
+    "customer_opening": "Darni rasi bezzaf, chrebt 3 d lfanidat dyal Doliprane 1000 f d9a w7da.",
+    "learners_task": "Alerter sur la toxicité d'un surdosage en paracétamol et indiquer la conduite à tenir.",
+    "coaching_hint": "Restez calme mais ferme, donnez la limite claire (1 comprimé/6h) et conseillez de boire de l'eau.",
+    "guided_choices": [
+      {
+        "option": "3 d lfanidat f dqa wehda bezzaf w yqder yderrek f lkebda. Ma tfoutch fanida w7da kola 6 swaye3. Khassek tchreb lma bezzaf daba.",
+        "reaction": "Le client s'inquiète mais écoute : Ma kntch 3aref, ghadi nchreb lma w ma nzidhch.",
+        "is_optimal": true
+      },
+      {
+        "option": "Vous risquez une hépatite fulminante par épuisement du glutathion, la dose toxique est presque atteinte.",
+        "reaction": "Le client panique totalement : Hépatite ?! Wesh ghadi nmout ?!",
+        "is_optimal": false
+      },
+      {
+        "option": "Safi, chreb ghir l7lib bezzaf daba, hadchi kayn3ess lmo3da w kaykhrej sem.",
+        "reaction": "L7lib? Ana kount kanchreb lma, walakin hadchi ma kayban liya ghadi y3awen bezzaf. Wach hadi hiya triq lwa7ida?",
+        "is_optimal": false
+      }
+    ],
+    "allow_free_text": true,
+    "retry_comparison": "Comparaison : Prévenir du mal de foie de façon simple et donner l'intervalle correct (6 heures) éduque le patient. Le jargon terrorise.",
+    "created_at": "2026-09-19 11:09:41.988857+00:00",
+    "focus_type": "darija"
+  },
+  {
+    "id": "52db1cb4-bece-4fb2-bd81-eaa1bce29b88",
+    "category": "Jeûne et traitement",
+    "customer_opening": "Ana sayem f Ramadan. Kifach ndir nchreb had dwa li khasni nakhdou tlata d lmarat f nhar?",
+    "learners_task": "Adapter la prise au jeûne ou orienter vers le médecin pour changer la posologie.",
+    "coaching_hint": "Proposez une solution (ftour, shour) si possible, sinon expliquez pourquoi il faut revoir le médecin.",
+    "guided_choices": [
+      {
+        "option": "Bima annhu khassek takhdou 3 d lmarat, khasna nchoufo m3a tbib dyalek wesh nbdlouh b dwa kytkhad ghir 2 marat (ftour w shour).",
+        "reaction": "Le patient acquiesce : Fikra mzyana, ghadi n3yt l tbib nswlou.",
+        "is_optimal": true
+      },
+      {
+        "option": "La demi-vie courte exige des prises toutes les 8 heures, le jeûne est formellement contre-indiqué.",
+        "reaction": "Le patient se ferme : Ana ghadi nsoum, bzaf 3lia hadchi.",
+        "is_optimal": false
+      },
+      {
+        "option": "Khassek tchreb dwa kaml f ftour bach t3awd l nhar, w hadi hiya la solution l wa7ida.",
+        "reaction": "La, hadi ghalta! Ana khasni nakhdou 3 d lmarat f nhar, kifach njm3hom f mrra? Hadi ghadi tdirli mouchkil kbir.",
+        "is_optimal": false
+      }
+    ],
+    "allow_free_text": true,
+    "retry_comparison": "Comparaison : Proposer une adaptation des horaires (ftour/shour) avec l'accord du médecin montre du respect pour les croyances du patient.",
+    "created_at": "2026-09-19 11:10:09.063374+00:00",
+    "focus_type": "darija"
+  },
+  {
+    "id": "9cdf8542-3fd3-4bc5-9e6f-92d73e15108d",
+    "category": "Contraception oubliée",
+    "customer_opening": "Nsit lkinna dyal man3 l7aml lbarh f lil. Yallah tfkrt'ha daba f sba7.",
+    "learners_task": "Fournir la règle de rattrapage d'oubli de pilule de manière rassurante et claire.",
+    "coaching_hint": "Donnez l'action immédiate à faire, sans entrer dans les détails hormonaux.",
+    "guided_choices": [
+      {
+        "option": "Ma tkhafich. Khedi lfanida li nsiti daba nite, w khoudi dyal lyoum f lweqt l3adi dyalha f lil. Hta wkha tchrbihom bjoj f nhar wahed machi mochkil.",
+        "reaction": "La cliente est rassurée : Lhamdoulilah, ghadi nakhoudha daba.",
+        "is_optimal": true
+      },
+      {
+        "option": "En cas d'oubli de plus de 12 heures d'un contraceptif oestroprogestatif, l'efficacité n'est plus garantie, il faut une contraception mécanique.",
+        "reaction": "La cliente panique : Efficacité ma kynach? Chno khassni ndir daba?",
+        "is_optimal": false
+      },
+      {
+        "option": "Ghir khoudi joj hbibat daba bach t3awdi lprogramme.",
+        "reaction": "La, hadchi khayefni, momkin ydir liya ghiya. Bghit chi haja wadha.",
+        "is_optimal": false
+      }
+    ],
+    "allow_free_text": true,
+    "retry_comparison": "Comparaison : Dire \"Prenez-la maintenant, et la prochaine à l'heure habituelle\" donne une marche à suivre claire.",
+    "created_at": "2026-09-19 11:10:09.063374+00:00",
+    "focus_type": "darija"
+  },
+  {
+    "id": "25bc0d2c-fbb8-4852-b2d2-fc215a8938dd",
+    "category": "Confusion de voies (Gouttes)",
+    "customer_opening": "Had le9tirate nqder ndirhom hta l wedni?",
+    "learners_task": "Distinguer strictement les voies d'administration pour éviter des dommages.",
+    "coaching_hint": "Expliquez simplement pourquoi on ne mélange pas les usages oculaire et auriculaire.",
+    "guided_choices": [
+      {
+        "option": "Lla, hado khassine ghir b l3inin. Ma tdirhomch f wednek hit kola blasa w 3ndha dwa dyalha li kaywalamha.",
+        "reaction": "Le client hoche la tête : D'accord, ma ghadi nsta3melhom ghir l3inya.",
+        "is_optimal": true
+      },
+      {
+        "option": "Le pH et l'osmolarité des préparations ophtalmiques ne sont pas adaptés à la physiologie du conduit auditif externe.",
+        "reaction": "Le client est agacé : Wakha, golia ghir lla w safi.",
+        "is_optimal": false
+      },
+      {
+        "option": "Iyeh, tqder tdirhom f wednek ila kanu nazfin mzyan, hakka kaynaqsu l'iltihab.",
+        "reaction": "Safi, walakin wa3lash kaygoulou bellati ma khassine ghir l3inin? Daba ma3reftch chkoun nsseddaq.",
+        "is_optimal": false
+      }
+    ],
+    "allow_free_text": true,
+    "retry_comparison": "Comparaison : \"Kola blasa w 3ndha dwa dyalha\" (Chaque zone a son médicament) est une règle logique que tout le monde comprend.",
+    "created_at": "2026-09-19 11:10:09.063374+00:00",
+    "focus_type": "darija"
+  },
+  {
+    "id": "8a3ef68d-d44b-4eb4-90fd-c87d0ce4f598",
+    "category": "Effet secondaire - Somnolence",
+    "customer_opening": "Mli chrebt had dwa dyal l7asasiya, bqit ghir kantsayeb w fya n3as f lkhedma.",
+    "learners_task": "Avertir sur la sédation et proposer une adaptation de l'heure de prise.",
+    "coaching_hint": "Donnez une consigne de sécurité (conduite) et un conseil pratique pour la prochaine prise.",
+    "guided_choices": [
+      {
+        "option": "Iyeh, had dwa kayjib n3as chwia. Mn l'ahsan t3awd takhdou f lil 9bel ma tn3es bach ma yberztekch f nhar.",
+        "reaction": "Le client sourit : Fikra mzyana, nakhdou b lil hsen.",
+        "is_optimal": true
+      },
+      {
+        "option": "C'est un antihistaminique de première génération qui traverse la barrière hémato-encéphalique, d'où la sédation.",
+        "reaction": "Le client est perdu : Barrière chno ? Wesh n7ebsou ?",
+        "is_optimal": false
+      },
+      {
+        "option": "Safi, had l7asasiya ghadi tzid t3ayek 3la rassek, dir chi 7aja khedma bach tb9a wa3i.",
+        "reaction": "Wa achno had lhedra? Bghit chi 7aja tfsse3 liya l3rd, machi tzid t3ayeni ktar!",
+        "is_optimal": false
+      }
+    ],
+    "allow_free_text": true,
+    "retry_comparison": "Comparaison : Transférer la prise le soir résout le problème pratique. Expliquer la barrière hémato-encéphalique ne sert à rien ici.",
+    "created_at": "2026-09-19 11:10:09.063374+00:00",
+    "focus_type": "darija"
+  },
+  {
+    "id": "b798098e-e1f4-4091-8825-63d6b78c8f42",
+    "category": "Protection gastrique - AINS",
+    "customer_opening": "Tbib 3tani wahed l-fanid l-m3da m3a had dwa d-l7riq, walakin ana m3dti mzyana, ma fiyach l-grah (ulcère).",
+    "learners_task": "Expliquer le rôle préventif de l'IPP avec les anti-inflammatoires sans utiliser de vocabulaire de gastro-entérologie.",
+    "coaching_hint": "Évitez \"inhibiteur de la pompe à protons\" ou \"prostaglandines\". Parlez de créer une couche protectrice.",
+    "guided_choices": [
+      {
+        "option": "Dwa d-l7riq mejehed chwia w y9der yjra7 lik l-m3da wkha 3ndek s7i7a. Had l-fanid kaydir bhal chi ghlav (couche) bach y7miha.",
+        "reaction": "Le client approuve : Fikra mzyana, ghadi nakhdou bach n-tfaada l-mouchkil.",
+        "is_optimal": true
+      },
+      {
+        "option": "Les AINS inhibent les prostaglandines protectrices de l'estomac. L'IPP prévient le risque d'ulcère iatrogène.",
+        "reaction": "Le client est suspicieux : Iatrogène ? Wesh dwa fih mouchkil ?",
+        "is_optimal": false
+      },
+      {
+        "option": "L'IPP kay9tel l-bakteri dyal l-m3da 3la jal ma ykounch 3ndek l-infection.",
+        "reaction": "Ah? Walakin ana ma3ndich infection, 3lach nakhd l-antibiotique?",
+        "is_optimal": false
+      }
+    ],
+    "allow_free_text": true,
+    "retry_comparison": "Comparaison : \"Ghlav\" (couche protectrice) est un concept simple et logique. \"Iatrogène\" installe le doute sur la compétence du médecin.",
+    "created_at": "2026-09-19 14:58:41.181129+00:00",
+    "focus_type": "technical"
+  },
+  {
+    "id": "d4872b5f-9407-481c-ad20-ad443cd31eb2",
+    "category": "Mécanisme d'action - Statines",
+    "customer_opening": "Comment fonctionne exactement ce médicament pour mon cholestérol ? Ça détruit le gras qui circule dans mon sang ?",
+    "learners_task": "Expliquer le mécanisme de blocage de la production hépatique avec une métaphore simple.",
+    "coaching_hint": "Ne prononcez pas les mots \"HMG-CoA réductase\" ou \"synthèse endogène\". Parlez du foie comme d'une usine.",
+    "guided_choices": [
+      {
+        "option": "Pas tout à fait. La majorité de votre cholestérol est fabriqué par votre foie. Ce médicament dit simplement à l'usine de votre foie de ralentir sa production.",
+        "reaction": "Le client hoche la tête : Ah, je pensais que ça venait que de la nourriture. C'est très clair.",
+        "is_optimal": true
+      },
+      {
+        "option": "Non, c'est un inhibiteur enzymatique. Il bloque l'enzyme HMG-CoA réductase dans le foie pour stopper la synthèse endogène du cholestérol.",
+        "reaction": "Le client a l'air confus : Un inhibiteur ? C'est un traitement lourd alors ?",
+        "is_optimal": false
+      },
+      {
+        "option": "Oui, en quelque sorte, il se fixe aux graisses de votre sang et les aide à être éliminées plus vite par les reins.",
+        "reaction": "Le patient fronce les sourcils : « Mais ça ne m'explique pas comment ça marche vraiment, et j'ai peur que ça abîme mes reins… »",
+        "is_optimal": false
+      }
+    ],
+    "allow_free_text": true,
+    "retry_comparison": "Comparaison : L'image de \"l'usine\" permet au patient de visualiser l'action sans nécessiter de diplôme en biochimie.",
+    "created_at": "2026-09-19 14:52:08.098465+00:00",
+    "focus_type": "technical"
+  },
+  {
+    "id": "0c856936-59bd-4eff-beeb-d40345e24080",
+    "category": "Maladie Chronique - Insulino-résistance",
+    "customer_opening": "Le médecin m'a prescrit de la Metformine pour mon diabète, ça veut dire que mon pancréas est mort et que c'est de l'insuline en cachet ?",
+    "learners_task": "Expliquer la sensibilisation à l'insuline (diabète de type 2) sans jargon pour dédramatiser la situation.",
+    "coaching_hint": "Utilisez l'analogie d'une clé et d'une serrure rouillée. Évitez \"insulino-résistance\" ou \"néoglucogenèse\".",
+    "guided_choices": [
+      {
+        "option": "Rassurez-vous, votre pancréas fonctionne encore ! Votre corps produit de l'insuline, mais vos cellules ont du mal à l'utiliser. Ce médicament agit comme un dégrippant pour que votre propre insuline fonctionne mieux.",
+        "reaction": "Le client sourit, visiblement soulagé : Ah, donc c'est juste pour aider mon corps, ce n'est pas de l'insuline.",
+        "is_optimal": true
+      },
+      {
+        "option": "Non, c'est un insulinosensibilisateur. Il diminue la néoglucogenèse hépatique et augmente la sensibilité des récepteurs musculaires à l'insuline endogène.",
+        "reaction": "Le client regarde dans le vide : Néogluco... quoi ? Donc mon pancréas marche ?",
+        "is_optimal": false
+      },
+      {
+        "option": "En fait, la Metformine, c'est un peu comme une insuline en comprimé, mais moins forte : elle aide votre pancréas à se reposer.",
+        "reaction": "Ah bon ? Donc mon pancréas est fatigué quand même... et si je prends ce comprimé, il va arrêter de fonctionner complètement ?",
+        "is_optimal": false
+      }
+    ],
+    "allow_free_text": true,
+    "retry_comparison": "Comparaison : L'image du \"dégrippant\" explique parfaitement l'insulinosensibilisation d'une manière immédiatement familière.",
+    "created_at": "2026-09-19 14:52:08.098465+00:00",
+    "focus_type": "technical"
+  },
+  {
+    "id": "4a2d467c-6595-4285-b819-75d09457e9bb",
+    "category": "Voie d'administration - Sublinguale",
+    "customer_opening": "Pour ma crise d'angine de poitrine, je dois avaler ce petit comprimé avec un grand verre d'eau dès que j'ai mal ?",
+    "learners_task": "Corriger la voie d'administration (per os vs sublinguale) en expliquant le \"pourquoi\" sans termes pharmacocinétiques.",
+    "coaching_hint": "Évitez les expressions \"muqueuse sublinguale\" ou \"effet de premier passage hépatique\".",
+    "guided_choices": [
+      {
+        "option": "Surtout pas avec de l'eau. Vous devez le laisser fondre sous votre langue. Les petits vaisseaux sanguins en dessous l'absorbent directement, ce qui le fait agir en quelques secondes.",
+        "reaction": "Le patient écarquille les yeux : Heureusement que je vous ai demandé ! Sous la langue, d'accord.",
+        "is_optimal": true
+      },
+      {
+        "option": "Non, c'est pour la voie sublinguale. Si vous l'avalez, il subira le métabolisme hépatique et sera détruit avant d'agir.",
+        "reaction": "Le patient est perplexe : Le métabolisme de quoi ? Je dois le mâcher ?",
+        "is_optimal": false
+      },
+      {
+        "option": "Oui, mais il faut absolument croquer le comprimé avant de l'avaler pour qu'il agisse plus vite.",
+        "reaction": "Ah bon ? On m'a toujours dit de ne pas croquer les médicaments... Du coup, je fais quoi ?",
+        "is_optimal": false
+      }
+    ],
+    "allow_free_text": true,
+    "retry_comparison": "Comparaison : Dire \"les petits vaisseaux l'absorbent\" donne du sens à l'action de \"mettre sous la langue\" sans jargon complexe.",
+    "created_at": "2026-09-19 14:52:08.098465+00:00",
+    "focus_type": "darija"
+  },
+  {
+    "id": "b0bfb0f7-ef36-4a89-8554-e8dc85671f55",
+    "category": "Effet secondaire - Diurétique",
+    "customer_opening": "Had dwa dyal tansio kaykhelini nmchi l toilette bezzaf, wesh hadchi normal?",
+    "learners_task": "Expliquer le mécanisme diurétique et son lien avec la baisse de tension artérielle simplement.",
+    "coaching_hint": "Ne parlez pas d'hypovolémie ou de diurèse. Parlez d'éliminer le sel et l'eau pour baisser la pression.",
+    "guided_choices": [
+      {
+        "option": "Iyeh normal. Had dwa kay3awen l-korp dyalek ytkhelles men l-ma w l-mel7a zayda f l-boul, bach t-n9es ddaght (pression) 3la le3rou9.",
+        "reaction": "Le client est rassuré : Lhamdoulilah, sh7abli fya skkar.",
+        "is_optimal": true
+      },
+      {
+        "option": "C'est normal, c'est un diurétique qui diminue le volume sanguin en augmentant l'excrétion rénale de sodium.",
+        "reaction": "Le client s'inquiète : Excrétion ? Wesh l-klawi dyali mrab ?",
+        "is_optimal": false
+      },
+      {
+        "option": "Iyeh normal, had dwa kaywessi3 le3rou9 dyalek bach ddaght tn9es, w l-ma kaykhrouj 3la 9bal had l-wes3an.",
+        "reaction": "Ah bon? Walakin ana kanhsse belli le3rou9 dyaly kaydwi9o, machi kaywess3o... hadchi ma-fhemtch mzyan.",
+        "is_optimal": false
+      }
+    ],
+    "allow_free_text": true,
+    "retry_comparison": "Comparaison : Expliquer que la pression baisse quand on enlève le surplus d'eau est très clair. Le terme \"excrétion rénale\" génère de l'anxiété.",
+    "created_at": "2026-09-19 14:58:41.181129+00:00",
+    "focus_type": "technical"
+  },
+  {
+    "id": "f191653d-56b1-4852-8896-600658285df2",
+    "category": "Effet secondaire - Microbiote",
+    "customer_opening": "Wesh darouri nakhoud had les probiotiques m3a l'antibiotique ? Rah zaydin f taman.",
+    "learners_task": "Vulgariser le concept de dysbiose intestinale induite par les antibiotiques.",
+    "coaching_hint": "Évitez le mot \"flore intestinale\" ou \"microbiote\". Utilisez \"les bonnes bactéries\" ou \"les bons microbes\".",
+    "guided_choices": [
+      {
+        "option": "L'antibiotique kay9tel l-mikrobat l-khayba, walakin kay9tel hta l-mikrobat l-mzyana li f l-msaren dyalek w kaydir l-weje3. Had probiotique kayrje3 dik l-mikrobat l-mzyana.",
+        "reaction": "Le client hoche la tête : Ah, bach ma tjinich l-kerch (diarrhée). Wakha nakhdou.",
+        "is_optimal": true
+      },
+      {
+        "option": "Les antibiotiques causent une dysbiose du microbiote intestinal. Les probiotiques restaurent la flore symbiotique.",
+        "reaction": "Le client refuse : Dysbiose ? Khlihom ghir 3ndek, ma fya ma yzid l-mard.",
+        "is_optimal": false
+      },
+      {
+        "option": "L'antibiotique w l-probiotique b7al l-3dowa: ila khedmi l-probiotique qbel l-antibiotique, ghadi y7mi l-mikrobat l-mzyana men l-antibiotique.",
+        "reaction": "Wesh, hadi ghalta! L-probiotique f l-we9t l-ghalat y9der ykoun ma3ndo fayda, w ana bghit n3ref kifach nakhodhom bjouj bach n7mi karchi. Had chi mashi mantiq.",
+        "is_optimal": false
+      }
+    ],
+    "allow_free_text": true,
+    "retry_comparison": "Comparaison : Séparer \"bons\" et \"mauvais\" microbes rend l'utilité du produit évidente. Le vocabulaire \"symbiotique\" ajoute de la confusion.",
+    "created_at": "2026-09-19 14:58:41.181129+00:00",
+    "focus_type": "technical"
+  },
+  {
+    "id": "af8caca3-7b26-4e92-ae48-d1968c33ca89",
+    "category": "Mécanisme d'action - Asthme",
+    "customer_opening": "Had rabouz l-marron ma kaydir lya walo mli katchedni ddi9a (crise). Kanjegh ghir l-zre9.",
+    "learners_task": "Différencier le traitement de crise du traitement de fond sans utiliser de termes complexes comme \"bronchodilatateur\" ou \"corticostéroïde inhalé\".",
+    "coaching_hint": "Utilisez la métaphore du \"pompier\" (crise) et du \"maçon\" (fond).",
+    "guided_choices": [
+      {
+        "option": "L-zre9 kay3te9 f l-blasa, bhal pompier. L-marron khassek tdirou dima bach ybni w yداوي (guérir) rya dyalek chwia b chwia, bhal l-bennay.",
+        "reaction": "Le client comprend : Ah, fhemt daba, l-marron hwa li kaydawi.",
+        "is_optimal": true
+      },
+      {
+        "option": "Le bleu est un bronchodilatateur pour la crise, le marron est un anti-inflammatoire stéroïdien pour la maladie.",
+        "reaction": "Le client fronce les sourcils : Broncho-chno ?",
+        "is_optimal": false
+      },
+      {
+        "option": "Kola merra li katched fik ddi9a, cheb l-boucha dyalek b l-marron bach yched rassek, w l-zre9 ghir ila bghiti tzid tnafs.",
+        "reaction": "La, hadi ghalta! L-marron mashi dyal l-crise, ana kanjegh ghir l-zre9. W ila chebt l-marron f l-crise, rah ghadi ykhellini ma nafe3 walo.",
+        "is_optimal": false
+      }
+    ],
+    "allow_free_text": true,
+    "retry_comparison": "Comparaison : La métaphore du pompier et du maçon explique l'urgence vs la prévention de façon visuelle. Les termes cliniques embrouillent le patient.",
+    "created_at": "2026-09-19 14:58:41.181129+00:00",
+    "focus_type": "technical"
+  },
+  {
+    "id": "e2b4bd85-098a-4c93-9b09-6898bd3ef087",
+    "category": "Modalité de prise - Bisphosphonates",
+    "customer_opening": "Galo lya khassni n-b9a wa9fa 30 dqiqa mli nchreb had dwa d l-3dam. 3lach had l-3dab ?",
+    "learners_task": "Expliquer le risque d'œsophagite lié aux bisphosphonates sans termes anatomiques compliqués.",
+    "coaching_hint": "Ne parlez pas de reflux gastro-œsophagien ou d'ulcération. Expliquez le trajet mécanique du cachet.",
+    "guided_choices": [
+      {
+        "option": "Had l-fanid khassou yehbet nishan l-m3da b zerba. Ila n3esti, y9der ybqa wa7el f l-gerjouma (œsophage) w yjra7ha. L-wqouf kay3awnou yehbet mzyan.",
+        "reaction": "La cliente comprend : Ah fhemt, khassni n3awen bel-jaadibiya (gravité). Safi n-b9a wa9fa.",
+        "is_optimal": true
+      },
+      {
+        "option": "C'est pour éviter les ulcérations œsophagiennes sévères en cas de reflux du bisphosphonate.",
+        "reaction": "La cliente s'effraie : Ulcération ? Wesh had dwa kaykoul l-l7em ?",
+        "is_optimal": false
+      },
+      {
+        "option": "Hada bach l-medication mayb9ach f l-m3da w yb9a ghadi l l-3dam, donc khass t9ef bach ywsel dghya l l-3dam.",
+        "reaction": "Galo: 'Wa lakin ana kanchreb l-medication bach y3mel 3la l-3dam, mashi bach yb9a f l-m3da! Had l-hadra ma-fhemthach.'"
+      }
+    ],
+    "allow_free_text": true,
+    "retry_comparison": "Comparaison : Donner une raison mécanique (le cacher doit descendre vite) est facilement applicable. \"Ulcérations sévères\" provoque un rejet du traitement.",
+    "created_at": "2026-09-19 14:58:41.181129+00:00",
+    "focus_type": "technical"
+  },
+  {
+    "id": "7b680ad2-1021-4dcf-a379-d6cadb3f8a18",
+    "category": "Index thérapeutique - AVK",
+    "customer_opening": "Pourquoi je dois faire des prises de sang tout le temps pour ce médicament anticoagulant ? Mon voisin prend un autre médicament pour le sang et ne fait pas de tests.",
+    "learners_task": "Expliquer la marge thérapeutique étroite sans utiliser ce terme, en justifiant la surveillance.",
+    "coaching_hint": "Évitez \"Index thérapeutique étroit\" ou \"taux de prothrombine / INR\". Parlez d'équilibre sur une balance.",
+    "guided_choices": [
+      {
+        "option": "Ce médicament est très efficace, mais il demande un équilibre parfait. La prise de sang sert à s'assurer que votre sang n'est ni trop épais, ni trop liquide, pour vous protéger au maximum.",
+        "reaction": "Le client comprend : C'est pour trouver le bon dosage en fait, d'accord.",
+        "is_optimal": true
+      },
+      {
+        "option": "Parce que cet anti-vitamine K a un index thérapeutique très étroit. Il faut surveiller votre INR pour éviter tout risque d'hémorragie sévère.",
+        "reaction": "Le client panique : Hémorragie sévère ?! C'est dangereux !",
+        "is_optimal": false
+      },
+      {
+        "option": "Ce médicament nécessite une surveillance régulière car il peut interagir avec les aliments comme le chou ou la salade, ce qui modifie son effet. La prise de sang permet de contrôler que vous mangez correctement.",
+        "reaction": "Ah bon ? Donc si je mange une salade, je dois faire une prise de sang ? Mon voisin, lui, n'a pas ce problème avec son médicament...",
+        "is_optimal": false
+      }
+    ],
+    "allow_free_text": true,
+    "retry_comparison": "Comparaison : \"Équilibre parfait\" et \"ni trop épais ni trop liquide\" rassurent et responsabilisent. Parler \"d'hémorragie sévère\" terrorise.",
+    "created_at": "2026-09-19 14:52:08.098465+00:00",
+    "focus_type": "technical"
+  },
+  {
+    "id": "833c60ec-c809-42ca-b198-930f88ab1f04",
+    "category": "Vulgarisation - Corticophobie",
+    "customer_opening": "Le médecin m'a prescrit cette crème, mais j'ai lu que les \"corticostéroïdes\" affinent la peau et sont dangereux. Je refuse de mettre des stéroïdes.",
+    "learners_task": "Démystifier le terme technique et rassurer le patient sur l'usage local à court terme.",
+    "coaching_hint": "Évitez de parler d'effets systémiques ou d'atrophie cutanée. Utilisez la métaphore d'un extincteur local pour l'inflammation.",
+    "guided_choices": [
+      {
+        "option": "Je comprends votre crainte. En fait, cette crème agit localement comme un extincteur pour calmer l'incendie sur votre peau. Utilisée exactement comme prescrit sur quelques jours, elle est très sûre.",
+        "reaction": "Le client se détend : Donc si je la mets juste sur les plaques, ça va ?",
+        "is_optimal": true
+      },
+      {
+        "option": "L'atrophie cutanée n'apparaît qu'en cas d'usage prolongé. C'est un traitement topique, le passage systémique est négligeable.",
+        "reaction": "Le client fronce les sourcils : Passage systémique ? Ça veut dire que ça va dans mon sang ?",
+        "is_optimal": false
+      },
+      {
+        "option": "Les corticostéroïdes sont des hormones de synthèse, ils ne passent pas dans le sang donc ils n'ont aucun effet secondaire.",
+        "reaction": "Le patient semble encore plus inquiet : 'Vous dites aucun effet secondaire, mais j'ai lu partout que ça peut affiner la peau ! Vous me cachez quelque chose ?'",
+        "is_optimal": false
+      }
+    ],
+    "allow_free_text": true,
+    "retry_comparison": "Comparaison : La métaphore de \"l'extincteur\" explique le rôle anti-inflammatoire. Les termes \"topique\" et \"systémique\" génèrent de nouvelles angoisses.",
+    "created_at": "2026-09-19 14:52:08.098465+00:00",
+    "focus_type": "technical"
+  },
+  {
+    "id": "9bd792dd-3183-4528-8017-881a521f4b4d",
+    "category": "Risque de surdosage",
+    "customer_opening": "Darni rasi bezzaf, chrebt 3 d lfanidat dyal Doliprane 1000 f d9a w7da.",
+    "learners_task": "Alerter sur la toxicité d'un surdosage en paracétamol et indiquer la conduite à tenir.",
+    "coaching_hint": "Restez calme mais ferme, donnez la limite claire (1 comprimé/6h) et conseillez de boire de l'eau.",
+    "guided_choices": [
+      {
+        "option": "3 d lfanidat f dqa wehda bezzaf w yqder yderrek f lkebda. Ma tfoutch fanida w7da kola 6 swaye3. Khassek tchreb lma bezzaf daba.",
+        "reaction": "Le client s'inquiète mais écoute : Ma kntch 3aref, ghadi nchreb lma w ma nzidhch.",
+        "is_optimal": true
+      },
+      {
+        "option": "Vous risquez une hépatite fulminante par épuisement du glutathion, la dose toxique est presque atteinte.",
+        "reaction": "Le client panique totalement : Hépatite ?! Wesh ghadi nmout ?!",
+        "is_optimal": false
+      },
+      {
+        "option": "Hta ila chrebt 3 fanidat dyal Doliprane 1000 f d9a wa7da, ghadi t3di bla mochkil ila kan lkebd dyalk mzyan. Ghi chreb lma w ertah.",
+        "reaction": "Yak labas? Chkoun gal lik hadchi? Ana khayef 3la lkebd dyali, bghit n3ref wach khassni ndwi f triq wla la.",
+        "is_optimal": false
+      }
+    ],
+    "allow_free_text": true,
+    "retry_comparison": "Comparaison : Prévenir du mal de foie de façon simple et donner l'intervalle correct (6 heures) éduque le patient. Le jargon terrorise.",
+    "created_at": "2026-09-19 11:10:09.063374+00:00",
+    "focus_type": "darija"
+  },
+  {
+    "id": "79a3c971-fea5-46ee-b61e-9c7d8bfdd96a",
+    "category": "Mesure des sirops",
+    "customer_opening": "Wesh n3tih had sirop b m3el9a kbira dyal lmakla?",
+    "learners_task": "Insister sur l'utilisation de l'outil de dosage fourni pour éviter les erreurs de dose.",
+    "coaching_hint": "Soulignez que les cuillères de cuisine ne sont pas précises et qu'il faut utiliser le gobelet/seringue.",
+    "guided_choices": [
+      {
+        "option": "Lla, m3aleq d lkuzina makaykunouch m9adin. Khassek tsta3ml had lkas sghir li m3a l9er3a bach t3tih l3bar s7i7.",
+        "reaction": "Le parent regarde la boîte : Ah kayn kass sghir hna, safi nsta3mlou howa.",
+        "is_optimal": true
+      },
+      {
+        "option": "L'usage d'une cuillère à soupe domestique induit un risque de sous-dosage ou de surdosage de l'ordre de 30%.",
+        "reaction": "Le parent est confus : 30% ? Ya3ni n3tih m3l9a w nzid chwia ?",
+        "is_optimal": false
+      },
+      {
+        "option": "Lla, m3elqa d lmakla kbira kate3ni li l9er3a kollha fiha jar3a kbira, 3tiha m3elqa wahda w safi.",
+        "reaction": "Ah? Wach hadi 7sab dyal chwiya? Bghit nfehm chno lfar9 bin lkass sghir w lm3elqa?",
+        "is_optimal": false
+      }
+    ],
+    "allow_free_text": true,
+    "retry_comparison": "Comparaison : Recadrer gentiment vers l'outil de dosage fourni garantit la sécurité. Citer le pourcentage d'erreur embrouille le patient.",
+    "created_at": "2026-09-19 11:10:09.063374+00:00",
+    "focus_type": "darija"
+  },
+  {
+    "id": "0683a465-9028-4589-ac74-f30f1c127e94",
+    "category": "Interaction alimentaire",
+    "customer_opening": "Wesh nqder nchreb had lfanid m3a lkas d l7lib?",
+    "learners_task": "Expliquer que le calcium empêche l'absorption de certains médicaments de manière simple.",
+    "coaching_hint": "Utilisez des mots simples sur l'efficacité du médicament au lieu de termes chimiques comme \"chélation\".",
+    "guided_choices": [
+      {
+        "option": "Lla, l7lib kaymne3 had dwa bach ykhdem mzyan. Khedih ghir m3a lma, w kheli l7lib htal mn be3d sa3atayn.",
+        "reaction": "Le client hoche la tête : D'accord, lma houwa lwel, w l7lib nkhlih mn b3d.",
+        "is_optimal": true
+      },
+      {
+        "option": "Le calcium chélate l'antibiotique, ce qui réduit considérablement sa biodisponibilité.",
+        "reaction": "Le client a l'air perplexe : Chélate ? Biodispo-chno ?",
+        "is_optimal": false
+      },
+      {
+        "option": "Iyeh, chreb bzzaf d l7lib fach katkhod dwa, ghadi yzid l'absorption dyalo.",
+        "reaction": "Safi? Ana 3arf l7lib mzyan l sa7ti, walakin daba ma fhemtch wach hadchi ghadi y3awenni wla y3awenni. Chwiya m'arbt 3lia.",
+        "is_optimal": false
+      }
+    ],
+    "allow_free_text": true,
+    "retry_comparison": "Comparaison : Donner la consigne \"avec de l'eau, attendre deux heures\" est immédiatement applicable. Les termes pharmacocinétiques ne le sont pas.",
+    "created_at": "2026-09-19 11:10:09.063374+00:00",
+    "focus_type": "darija"
+  },
+  {
+    "id": "4e8a8f67-8235-486c-a2ca-412db207f3dc",
+    "category": "Durée du traitement",
+    "customer_opening": "Wllit bikhir lyoum, rje3t mzyan, ma bghitch nkml had l'antibiotique kaml.",
+    "learners_task": "Expliquer l'importance de finir la boîte pour éviter l'antibiorésistance sans utiliser ce terme technique.",
+    "coaching_hint": "Parlez d'éliminer complètement les bactéries pour qu'elles ne reviennent pas plus fortes.",
+    "guided_choices": [
+      {
+        "option": "Wakha kathseb rasek mzyan, khassek tkemmel lkrtouna kamla bach lmikrobat ymoutou bmerra w ma yrj3ouch mjehdin kter.",
+        "reaction": "Le client comprend : Ah, nkemmelha bach mayrj3ch lya lmerd. Wakha.",
+        "is_optimal": true
+      },
+      {
+        "option": "L'arrêt prématuré de l'antibiothérapie favorise la sélection de souches bactériennes résistantes.",
+        "reaction": "Le client fronce les sourcils : Souches résistantes ? Ana rah bikhir daba.",
+        "is_optimal": false
+      },
+      {
+        "option": "Koun ghir thbti chwiya, l'antibiotique kayb9a f jismek 7ta mor ma t7bessou, donc ma khassekch tkemmel.",
+        "reaction": "Ah, waxa? Mais 3lach daba kanhseb belli 7ta l'3ya9 kaykhdm? Hadchi kaykhellini mkharb9.",
+        "is_optimal": false
+      }
+    ],
+    "allow_free_text": true,
+    "retry_comparison": "Comparaison : L'image des microbes qui \"reviennent plus forts\" (yrj3ouch mjehdin) est une excellente vulgarisation du concept de résistance bactérienne.",
+    "created_at": "2026-09-19 11:10:09.063374+00:00",
+    "focus_type": "darija"
+  },
+  {
+    "id": "48e52a2f-6184-418e-ab66-b59f1cd71262",
+    "category": "Confusion de voies (Gouttes)",
+    "customer_opening": "Had le9tirate nqder ndirhom hta l wedni?",
+    "learners_task": "Distinguer strictement les voies d'administration pour éviter des dommages.",
+    "coaching_hint": "Expliquez simplement pourquoi on ne mélange pas les usages oculaire et auriculaire.",
+    "guided_choices": [
+      {
+        "option": "Lla, hado khassine ghir b l3inin. Ma tdirhomch f wednek hit kola blasa w 3ndha dwa dyalha li kaywalamha.",
+        "reaction": "Le client hoche la tête : D'accord, ma ghadi nsta3melhom ghir l3inya.",
+        "is_optimal": true
+      },
+      {
+        "option": "Le pH et l'osmolarité des préparations ophtalmiques ne sont pas adaptés à la physiologie du conduit auditif externe.",
+        "reaction": "Le client est agacé : Wakha, golia ghir lla w safi.",
+        "is_optimal": false
+      },
+      {
+        "option": "Iyeh, momkin tdirhom f wednek ila kan l'infection ghir f l'oreille externe, walakin khass tkhaffef menhom b lma 3la 9bel.",
+        "reaction": "Bghit nfehm, kifach ndir l'dwa dyal l3in f wedni? Wach hadchi 3adi?",
+        "is_optimal": false
+      }
+    ],
+    "allow_free_text": true,
+    "retry_comparison": "Comparaison : \"Kola blasa w 3ndha dwa dyalha\" (Chaque zone a son médicament) est une règle logique que tout le monde comprend.",
+    "created_at": "2026-09-19 11:09:41.988857+00:00",
+    "focus_type": "darija"
+  },
+  {
+    "id": "17d0ad31-8633-4180-b30e-f1b7e9129551",
+    "category": "Médicament périmé",
+    "customer_opening": "L9it had sirop f dar, salat sela7iya dyalo f ch'her li fat. Nqder nchrbou?",
+    "learners_task": "Déconseiller fermement la prise de médicaments périmés en expliquant les risques.",
+    "coaching_hint": "Soyez direct sur la perte d'efficacité ou la toxicité, proposez de récupérer le produit.",
+    "guided_choices": [
+      {
+        "option": "Lla, ma tcherbouch. Mli katsali sela7iya, dwa kiy9der ywelli msemmem wla ma yb9ach ykhdem. Jibo l pharmacie nlu7ouh f blasa amina.",
+        "reaction": "Le client est d'accord : Mzyan mli sewltek, ghadi njibou likom.",
+        "is_optimal": true
+      },
+      {
+        "option": "La date de péremption garantit la stabilité des excipients, son usage est maintenant hors de notre responsabilité.",
+        "reaction": "Le client hausse les épaules : Wakha, ghadi njerbo w safi.",
+        "is_optimal": false
+      },
+      {
+        "option": "Iye, chrbou ghir nss dial kass, 3la 9bel ma ykml l'effet dyalo.",
+        "reaction": "Safi, wach hadchi ghadi yb9a khdam mzyan? Wla ghadi ydir liya chi haja khayba?",
+        "is_optimal": false
+      }
+    ],
+    "allow_free_text": true,
+    "retry_comparison": "Comparaison : Avertir clairement qu'il peut devenir \"toxique\" (msemmem) ou \"inutile\" dissuade l'usage, et proposer de le jeter résout le problème.",
+    "created_at": "2026-09-19 11:10:09.063374+00:00",
+    "focus_type": "darija"
+  },
+  {
+    "id": "5e676591-6d92-413e-a77c-a03c8455617d",
+    "category": "Objection sur le prix",
+    "customer_opening": "Had lpomada b 400 drhem?! Ma nqderch nchriha daba, ghalia bezzaf.",
+    "learners_task": "Reconnaître le prix avec empathie et proposer immédiatement une alternative pratique si possible.",
+    "coaching_hint": "Ne défendez pas le prix ou le fabricant. Concentrez-vous sur la recherche d'une solution adaptée à leur portefeuille.",
+    "guided_choices": [
+      {
+        "option": "3ndek l7eq, taman dyalha tale3 chwia. Nchouf lik wesh kayn générique dyalha wla chi tube sghir b taman 9el.",
+        "reaction": "Le client hoche la tête avec appréciation : 3afak, hadchi ghadi y3awenni bezzaf.",
+        "is_optimal": true
+      },
+      {
+        "option": "C'est le prix fixé par le laboratoire pour leur formule brevetée.",
+        "reaction": "Le client croise les bras : Wakha hakak, ma nqderch nchriha.",
+        "is_optimal": false
+      },
+      {
+        "option": "Daba hadchi 3adi, taman dyal l'adwiya kolha tale3. Koun sber chwia w chriha.",
+        "reaction": "Sber?! Ana mchit l sbittar, bghit dawa daba, machi ghdda! Had l klam ma 3awnnich.",
+        "is_optimal": false
+      }
+    ],
+    "allow_free_text": true,
+    "retry_comparison": "Comparaison : Proposer de vérifier les alternatives montre que vous êtes de leur côté pour trouver une solution. Défendre la tarification du fabricant coupe la communication.",
+    "created_at": "2026-09-19 11:09:41.988857+00:00",
+    "focus_type": "darija"
+  },
+  {
+    "id": "8ae16161-df81-44d9-893a-f99367178f12",
+    "category": "Conservation des médicaments",
+    "customer_opening": "Wesh had le9tirate d l3inin ndirhom f tlaja wla nkhelihom ghir 3la berra?",
+    "learners_task": "Donner une règle simple et claire pour la conservation et la durée d'utilisation.",
+    "coaching_hint": "Précisez clairement la température sans supposer qu'ils savent ce que signifie \"température ambiante\" en plein été.",
+    "guided_choices": [
+      {
+        "option": "Khelihom f tlaja htal tbghi thellihom. Mli thellihom, nqder tkhlihom ghir 7dak, walakin luh'hom mora ch'her.",
+        "reaction": "Le client répète : F tlaja f lwel, w mli n7elhom nkhlihom 3la berra ch'her. Safi mzyan.",
+        "is_optimal": true
+      },
+      {
+        "option": "Conservez entre 2 et 8 degrés Celsius avant ouverture, puis à température ambiante ne dépassant pas 25 degrés.",
+        "reaction": "Le client fronce les sourcils : Ya3ni... ndirhom f tlaja wla la ?",
+        "is_optimal": false
+      },
+      {
+        "option": "Khelihom f tlaja 3la 2-8 darajat, w mora ma tftahhom, 7ethom f l'boîte dyal l'vid l'li kayn f l'7ammam.",
+        "reaction": "Ah wach hadi? L'7ammam m3amr b l'bkhar, wach hadchi 3a9l? Had l'9tirate ghadi ykhsro!",
+        "is_optimal": false
+      }
+    ],
+    "allow_free_text": true,
+    "retry_comparison": "Comparaison : Traduire les températures en emplacements physiques concrets (réfrigérateur, à côté de soi) élimine toute ambiguïté.",
+    "created_at": "2026-09-19 11:09:41.988857+00:00",
+    "focus_type": "darija"
+  },
+  {
+    "id": "cf1d433e-77bc-4fce-83f3-6b70977e20d3",
+    "category": "Interaction médicamenteuse",
+    "customer_opening": "3ndi mounsaba lyoum f lil. Wesh nqder nchreb chi kisan d lkhamr w ana kanakhoud had l'antibiotique?",
+    "learners_task": "Expliquer simplement le risque spécifique de l'interaction, plutôt que de donner un \"non\" générique.",
+    "coaching_hint": "Reliez l'alcool à une sensation négative spécifique pour qu'ils comprennent *pourquoi* c'est mauvais, sans faire la morale.",
+    "guided_choices": [
+      {
+        "option": "Men l'ahsan tfada lkhamr lyoum. Ila khletih m3a had l'antibiotique bedabt, ghadi yderrek rasek w t7es b rdan (nausée).",
+        "reaction": "Le client soupire : Ah, d'accord. Ma bghitch nmred. Ghadi nchreb ghir lma.",
+        "is_optimal": true
+      },
+      {
+        "option": "L'alcool est contre-indiqué avec ce médicament en raison d'un effet antabuse.",
+        "reaction": "Le client fronce les sourcils : Effet antabuse ? Ya3ni ma ghadi ykhdem mzyan ?",
+        "is_optimal": false
+      },
+      {
+        "option": "Lkhamr maymkench ykon fih khtar bzf, ghir chreb kisan w tched. L'antibiotique dima kayw9ef l'effet dyalou.",
+        "reaction": "Yalah? Kifach l'antibiotique ghadi ywe9ef l'effet dyal lkhamr? Hadi ma fhemthach, bghit n3ref wach ghadi ydir liya chi 7aja khatira. 3lach ma katgoulich wach nqder nchreb wla la?",
+        "is_optimal": false
+      }
+    ],
+    "allow_free_text": true,
+    "retry_comparison": "Comparaison : Expliquer le résultat concret (se sentir malade/nauséeux) dissuade beaucoup plus efficacement que de nommer une réaction chimique.",
+    "created_at": "2026-09-19 11:09:41.988857+00:00",
+    "focus_type": "darija"
+  },
+  {
+    "id": "3564cf76-eb14-4c58-9c30-6cfb0369a7e8",
+    "category": "Marque vs Générique",
+    "customer_opening": "3lach 3titini had lkrtouna? Ana dima kanakhoud smia lma3roufa, ma bghitch wahed rkhis w mzewer.",
+    "learners_task": "Expliquer que le générique a le même principe actif et le même effet, en validant leur inquiétude sur la qualité.",
+    "coaching_hint": "Évitez le mot \"générique\" au début. Concentrez-vous sur le fait que l'ingrédient principal est exactement le même.",
+    "guided_choices": [
+      {
+        "option": "Had dwa fih nafs lmad'da li f dwayek l3adi, ghir lkrtouna li mbeldla bach yt9am 3lik rkhes.",
+        "reaction": "Le client a l'air soulagé : Ah, yak? Ya3ni ghadi ykhdem bhal bhal?",
+        "is_optimal": true
+      },
+      {
+        "option": "Hada générique bioéquivalent. Lqanoun kaysme7 lina nbédlouh.",
+        "reaction": "Le client est sur la défensive : Ma tlbtch lik tbedlou, bghit dwaya l3adi.",
+        "is_optimal": false
+      },
+      {
+        "option": "L'krtouna rkhisa 3la 9bal had dwa m3moul f chine, walakin l'effet dyalou kifkif.",
+        "reaction": "Chine? La, ana bghit dwa m3moul f bladna, machi chi haja mssnou3a f chinat. Hadchi khayefni!",
+        "is_optimal": false
+      }
+    ],
+    "allow_free_text": true,
+    "retry_comparison": "Comparaison : Mettre l'accent sur \"nafs lmad'da\" (même ingrédient) rassure et instaure la confiance, tandis que \"générique bioéquivalent\" semble défensif et technique.",
+    "created_at": "2026-09-19 11:09:41.988857+00:00",
+    "focus_type": "darija"
+  },
+  {
+    "id": "17af7372-8f72-4432-b649-ee976877c452",
+    "category": "Utilisation d'appareil",
+    "customer_opening": "Tbib galia nsta3mel had rabouz, walakin ma 3reftch wesh kanjbed nfs mzyan.",
+    "learners_task": "Fournir des instructions étape par étape en se concentrant sur une action à la fois, sans termes respiratoires complexes.",
+    "coaching_hint": "Décomposez la séquence : expirer, appuyer, inspirer lentement. N'utilisez pas de termes médicaux compliqués.",
+    "guided_choices": [
+      {
+        "option": "Kherrej nfs dyalek kaml lwel. B3dha, wrek 3la rabouz w jbed nfs bchwia w b3emq f nafs lwaqt.",
+        "reaction": "Le client mime l'action : Nkherrej nfs lwel, nwrek, w njbed bchwia. Safi fhemt.",
+        "is_optimal": true
+      },
+      {
+        "option": "Actionnez le dispositif pendant l'inspiration pour assurer un dépôt pulmonaire maximal.",
+        "reaction": "Le client a l'air confus : Kifach actionnez? Imta nwrek?",
+        "is_optimal": false
+      },
+      {
+        "option": "Jbed nafs 3la khater bach tkhalli dowa ykoun fi réya, machi fi rabouz.",
+        "reaction": "Sma3t hadchi w t7ayert: kifach ghadi ywsel dowa l réya? Hada ma 3reftch wesh 3andou 3ala9a b rabouz.",
+        "is_optimal": false
+      }
+    ],
+    "allow_free_text": true,
+    "retry_comparison": "Comparaison : Des verbes simples et directs comme \"kherrej nfs\" (expirer) et \"wrek\" (appuyer) sont facilement applicables. Le jargon respiratoire nécessite une traduction mentale.",
+    "created_at": "2026-09-19 11:09:41.988857+00:00",
+    "focus_type": "darija"
+  },
+  {
+    "id": "5ef555a1-de80-45d4-b3c3-1a53b2ce18ef",
+    "category": "Grossesse et sécurité",
+    "customer_opening": "Ana 7amla hadi 3 chhour. Wesh had lfanid dyal l7riq amane nakhdou?",
+    "learners_task": "Rassurer la patiente en mentionnant que le médecin est au courant, en utilisant un langage clair et non alarmiste.",
+    "coaching_hint": "Confirmez que le médecin a pesé les options. Évitez d'utiliser les codes de catégorisation des risques.",
+    "guided_choices": [
+      {
+        "option": "Iyeh, tbib dyalek khtar hada bedabt hit howa l'ahsan w l'aman lik bach y7yed l7riq f fetrat l7mala.",
+        "reaction": "La cliente sourit : Lhamdoulilah, khaft la yder lterbya.",
+        "is_optimal": true
+      },
+      {
+        "option": "Le paracétamol est généralement considéré comme sûr, bien que tout comporte un certain risque au premier trimestre.",
+        "reaction": "La cliente panique : Kayn risque ? Wesh ma nakhdouch hsen ?",
+        "is_optimal": false
+      },
+      {
+        "option": "Kayna alternative naturelle, kheli ghir l3in w nakhdo chi 3chba, hadi aktar amen.",
+        "reaction": "La patiente hésite : 'Mais chno had l3chba? Wach hadi m3rofa? Bghit chi haja tbib 3arfha.'",
+        "is_optimal": false
+      }
+    ],
+    "allow_free_text": true,
+    "retry_comparison": "Comparaison : Valider le choix délibéré du médecin instaure un climat de confiance. Mentionner \"un certain risque\" de manière générique provoque une panique inutile.",
+    "created_at": "2026-09-19 11:09:41.988857+00:00",
+    "focus_type": "darija"
+  }
+]
